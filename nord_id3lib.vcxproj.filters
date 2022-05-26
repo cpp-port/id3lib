@@ -138,60 +138,24 @@
     <ClInclude Include="src\tag_impl.h">
       <Filter>Header Files\src</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\app\include\id3.h">
-      <Filter>Header Files\include</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\app\include\id3\field.h">
-      <Filter>Header Files\include\id3</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\app\include\id3\globals.h">
-      <Filter>Header Files\include\id3</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\app\include\id3\helpers.h">
-      <Filter>Header Files\include\id3</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\app\include\id3\id3lib_frame.h">
-      <Filter>Header Files\include\id3</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\app\include\id3\id3lib_streams.h">
-      <Filter>Header Files\include\id3</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\app\include\id3\id3lib_strings.h">
-      <Filter>Header Files\include\id3</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\app\include\id3\io_decorators.h">
-      <Filter>Header Files\include\id3</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\app\include\id3\io_helpers.h">
-      <Filter>Header Files\include\id3</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\app\include\id3\io_strings.h">
-      <Filter>Header Files\include\id3</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\app\include\id3\misc_support.h">
-      <Filter>Header Files\include\id3</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\app\include\id3\reader.h">
-      <Filter>Header Files\include\id3</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\app\include\id3\readers.h">
-      <Filter>Header Files\include\id3</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\app\include\id3\sized_types.h">
-      <Filter>Header Files\include\id3</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\app\include\id3\tag.h">
-      <Filter>Header Files\include\id3</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\app\include\id3\utils.h">
-      <Filter>Header Files\include\id3</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\app\include\id3\writer.h">
-      <Filter>Header Files\include\id3</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\app\include\id3\writers.h">
-      <Filter>Header Files\include\id3</Filter>
-    </ClInclude>
+    <ClInclude Include="..\..\..\source\app\include\id3.h" />
+    <ClInclude Include="..\..\..\source\app\include\id3\field.h" />
+    <ClInclude Include="..\..\..\source\app\include\id3\globals.h" />
+    <ClInclude Include="..\..\..\source\app\include\id3\helpers.h" />
+    <ClInclude Include="..\..\..\source\app\include\id3\id3lib_frame.h" />
+    <ClInclude Include="..\..\..\source\app\include\id3\id3lib_streams.h" />
+    <ClInclude Include="..\..\..\source\app\include\id3\id3lib_strings.h" />
+    <ClInclude Include="..\..\..\source\app\include\id3\io_decorators.h" />
+    <ClInclude Include="..\..\..\source\app\include\id3\io_helpers.h" />
+    <ClInclude Include="..\..\..\source\app\include\id3\io_strings.h" />
+    <ClInclude Include="..\..\..\source\app\include\id3\misc_support.h" />
+    <ClInclude Include="..\..\..\source\app\include\id3\reader.h" />
+    <ClInclude Include="..\..\..\source\app\include\id3\readers.h" />
+    <ClInclude Include="..\..\..\source\app\include\id3\sized_types.h" />
+    <ClInclude Include="..\..\..\source\app\include\id3\tag.h" />
+    <ClInclude Include="..\..\..\source\app\include\id3\utils.h" />
+    <ClInclude Include="..\..\..\source\app\include\id3\writer.h" />
+    <ClInclude Include="..\..\..\source\app\include\id3\writers.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
@@ -217,8 +181,6 @@
     <None Include="baseid3lib.def">
       <Filter>Source Files</Filter>
     </None>
-    <None Include="..\..\..\app\include\id3\id3lib_bitset">
-      <Filter>Header Files\include\id3</Filter>
-    </None>
+    <None Include="..\..\..\source\app\include\id3\id3lib_bitset" />
   </ItemGroup>
 </Project>
