@@ -277,6 +277,20 @@ using namespace dami;
  ** \sa ID3_Err
  **/
 
+ /** Default constructor; it can accept an optional filename as a parameter.
+  **
+  ** If this file exists, it will be opened and all id3lib-supported tags will
+  ** be parsed and converted to ID3v2 if necessary.  After the conversion, the
+  ** file will remain unchanged, and will continue to do so until you use the
+  ** Update() method on the tag (if you choose to Update() at all).
+  **
+  ** \param name The filename of the mp3 file to link to
+  **/
+ID3_Tag::ID3_Tag(const char * name)
+   : _impl(new ID3_TagImpl(name))
+{
+}
+
 /** Default constructor; it can accept an optional filename as a parameter.
  **
  ** If this file exists, it will be opened and all id3lib-supported tags will

@@ -12,6 +12,7 @@
 ** implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 */
 
+#include "operating_system/third_private_c.h"
 
 /* This is the top section */
 
@@ -64,6 +65,10 @@
 
 /* Define if you have the ftruncate function.  */
 /* #undef HAVE_TRUNCATE */
+
+#ifdef ANDROID
+#define HAVE_UNISTD_H 1
+#endif
 
 /* Define if you have the <cctype> header file.  */
 #define HAVE_CCTYPE 1
