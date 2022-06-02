@@ -189,3 +189,11 @@
 
 #endif /* defined (ID3_ENABLE_DEBUG) && defined (HAVE_LIBCW_SYS_H) */
 
+
+
+
+#undef new
+
+
+void* operator new(const size_t, void* p) noexcept;
+

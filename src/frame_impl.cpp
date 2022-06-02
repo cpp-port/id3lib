@@ -30,6 +30,7 @@
 
 
 //#include <string.h>
+#undef new
 #include "id3/tag.h"
 #include "frame_impl.h"
 #include "field_impl.h"

@@ -165,12 +165,6 @@
     <ClInclude Include="src\mp3_header.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\source\app\include\id3\reader.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\source\app\include\id3\readers.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\source\app\include\id3\sized_types.h">
       <Filter>Header Files</Filter>
     </ClInclude>

@@ -1202,3 +1202,10 @@ flags_t ID3_FrameInfo::FieldFlags(ID3_FrameID frameID, int fieldnum)
     return 0;
 }
 
+
+
+//void* operator new(const size_t, void* p)
+//{
+//   return p;
+//
+//}

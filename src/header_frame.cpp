@@ -23,7 +23,7 @@
 // contributed to id3lib.  See the ChangeLog file for a list of changes to
 // id3lib.  These files are distributed with id3lib at
 // http://download.sourceforge.net/id3lib/
-
+#undef new
 
 #include <memory.h>
 #include "header_frame.h"
