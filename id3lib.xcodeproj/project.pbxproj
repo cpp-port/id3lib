@@ -24,7 +24,6 @@
 		9A903FE8284B2F75006B9FD2 /* tag_parse_v1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC323926D099080078C8A4 /* tag_parse_v1.cpp */; };
 		9A903FE9284B2F75006B9FD2 /* tag_parse_lyrics3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC325626D099080078C8A4 /* tag_parse_lyrics3.cpp */; };
 		9A903FEA284B2F75006B9FD2 /* tag_parse_musicmatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC322E26D099070078C8A4 /* tag_parse_musicmatch.cpp */; };
-		9A903FEB284B2F75006B9FD2 /* writers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC324426D099080078C8A4 /* writers.cpp */; };
 		9A903FEC284B2F75006B9FD2 /* frame_parse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC325526D099080078C8A4 /* frame_parse.cpp */; };
 		9A903FED284B2F75006B9FD2 /* header.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC323A26D099080078C8A4 /* header.cpp */; };
 		9A903FEE284B2F75006B9FD2 /* field_integer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC323626D099080078C8A4 /* field_integer.cpp */; };
@@ -76,7 +75,6 @@
 		9AEC326F26D099080078C8A4 /* header_frame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC324126D099080078C8A4 /* header_frame.cpp */; };
 		9AEC327026D099080078C8A4 /* tag_render.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC324226D099080078C8A4 /* tag_render.cpp */; };
 		9AEC327126D099080078C8A4 /* field_binary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC324326D099080078C8A4 /* field_binary.cpp */; };
-		9AEC327226D099080078C8A4 /* writers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC324426D099080078C8A4 /* writers.cpp */; };
 		9AEC327326D099080078C8A4 /* tag_find.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC324526D099080078C8A4 /* tag_find.cpp */; };
 		9AEC327426D099080078C8A4 /* spec.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AEC324726D099080078C8A4 /* spec.h */; };
 		9AEC327526D099080078C8A4 /* header_tag.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC324826D099080078C8A4 /* header_tag.cpp */; };
@@ -126,7 +124,6 @@
 		9AEC324126D099080078C8A4 /* header_frame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = header_frame.cpp; sourceTree = "<group>"; };
 		9AEC324226D099080078C8A4 /* tag_render.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tag_render.cpp; sourceTree = "<group>"; };
 		9AEC324326D099080078C8A4 /* field_binary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = field_binary.cpp; sourceTree = "<group>"; };
-		9AEC324426D099080078C8A4 /* writers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = writers.cpp; sourceTree = "<group>"; };
 		9AEC324526D099080078C8A4 /* tag_find.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tag_find.cpp; sourceTree = "<group>"; };
 		9AEC324626D099080078C8A4 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
 		9AEC324726D099080078C8A4 /* spec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spec.h; sourceTree = "<group>"; };
@@ -228,7 +225,6 @@
 				9AEC324226D099080078C8A4 /* tag_render.cpp */,
 				9AEC324A26D099080078C8A4 /* tag.cpp */,
 				9AEC323126D099080078C8A4 /* utils.cpp */,
-				9AEC324426D099080078C8A4 /* writers.cpp */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -359,7 +355,6 @@
 				9A903FE8284B2F75006B9FD2 /* tag_parse_v1.cpp in Sources */,
 				9A903FE9284B2F75006B9FD2 /* tag_parse_lyrics3.cpp in Sources */,
 				9A903FEA284B2F75006B9FD2 /* tag_parse_musicmatch.cpp in Sources */,
-				9A903FEB284B2F75006B9FD2 /* writers.cpp in Sources */,
 				9A903FEC284B2F75006B9FD2 /* frame_parse.cpp in Sources */,
 				9A903FED284B2F75006B9FD2 /* header.cpp in Sources */,
 				9A903FEE284B2F75006B9FD2 /* field_integer.cpp in Sources */,
@@ -399,7 +394,6 @@
 				9AEC326726D099080078C8A4 /* tag_parse_v1.cpp in Sources */,
 				9AEC328226D099080078C8A4 /* tag_parse_lyrics3.cpp in Sources */,
 				9AEC325C26D099080078C8A4 /* tag_parse_musicmatch.cpp in Sources */,
-				9AEC327226D099080078C8A4 /* writers.cpp in Sources */,
 				9AEC328126D099080078C8A4 /* frame_parse.cpp in Sources */,
 				9AEC326826D099080078C8A4 /* header.cpp in Sources */,
 				9AEC326426D099080078C8A4 /* field_integer.cpp in Sources */,
