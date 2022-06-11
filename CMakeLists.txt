@@ -52,7 +52,7 @@ list(APPEND library_source
    src/tag_parse_v1.cpp
    src/tag_render.cpp
    src/utils.cpp
-   src/writers.cpp
+   #src/writers.cpp
 
 
    )
