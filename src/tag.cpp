@@ -284,7 +284,6 @@ using namespace dami;
   ** file will remain unchanged, and will continue to do so until you use the
   ** Update() method on the tag (if you choose to Update() at all).
   **
-  ** \param name The filename of the mp3 file to link to
   **/
 ID3_Tag::ID3_Tag()
    : _impl(new ID3_TagImpl())
