@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/solution/basis/source/third/id3lib
+# Install script for directory: /home/pi/solution/basis/source/port/id3lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

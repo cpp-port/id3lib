@@ -99,14 +99,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/pi/solution/basis && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/solution/basis/CMakeFiles /home/pi/solution/basis/source/third/id3lib//CMakeFiles/progress.marks
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/third/id3lib/all
+	cd /home/pi/solution/basis && $(CMAKE_COMMAND) -E cmake_progress_start /home/pi/solution/basis/CMakeFiles /home/pi/solution/basis/source/port/id3lib//CMakeFiles/progress.marks
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/port/id3lib/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/solution/basis/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/third/id3lib/clean
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/port/id3lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -116,12 +116,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/third/id3lib/preinstall
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/port/id3lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/third/id3lib/preinstall
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/port/id3lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -130,18 +130,18 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-source/third/id3lib/CMakeFiles/id3lib.dir/rule:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/third/id3lib/CMakeFiles/id3lib.dir/rule
-.PHONY : source/third/id3lib/CMakeFiles/id3lib.dir/rule
+source/port/id3lib/CMakeFiles/id3lib.dir/rule:
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/port/id3lib/CMakeFiles/id3lib.dir/rule
+.PHONY : source/port/id3lib/CMakeFiles/id3lib.dir/rule
 
 # Convenience name for target.
-id3lib: source/third/id3lib/CMakeFiles/id3lib.dir/rule
+id3lib: source/port/id3lib/CMakeFiles/id3lib.dir/rule
 
 .PHONY : id3lib
 
 # fast build rule for target.
 id3lib/fast:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/build
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/build
 .PHONY : id3lib/fast
 
 ca2_readers.o: ca2_readers.cpp.o
@@ -150,7 +150,7 @@ ca2_readers.o: ca2_readers.cpp.o
 
 # target to build an object file
 ca2_readers.cpp.o:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/ca2_readers.cpp.o
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/ca2_readers.cpp.o
 .PHONY : ca2_readers.cpp.o
 
 ca2_readers.i: ca2_readers.cpp.i
@@ -159,7 +159,7 @@ ca2_readers.i: ca2_readers.cpp.i
 
 # target to preprocess a source file
 ca2_readers.cpp.i:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/ca2_readers.cpp.i
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/ca2_readers.cpp.i
 .PHONY : ca2_readers.cpp.i
 
 ca2_readers.s: ca2_readers.cpp.s
@@ -168,22 +168,22 @@ ca2_readers.s: ca2_readers.cpp.s
 
 # target to generate assembly for a file
 ca2_readers.cpp.s:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/ca2_readers.cpp.s
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/ca2_readers.cpp.s
 .PHONY : ca2_readers.cpp.s
 
 # target to build an object file
 cmake_pch.hxx.gch:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/cmake_pch.hxx.gch
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/cmake_pch.hxx.gch
 .PHONY : cmake_pch.hxx.gch
 
 # target to preprocess a source file
 cmake_pch.hxx.i:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/cmake_pch.hxx.i
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/cmake_pch.hxx.i
 .PHONY : cmake_pch.hxx.i
 
 # target to generate assembly for a file
 cmake_pch.hxx.s:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/cmake_pch.hxx.s
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/cmake_pch.hxx.s
 .PHONY : cmake_pch.hxx.s
 
 src/field.o: src/field.cpp.o
@@ -192,7 +192,7 @@ src/field.o: src/field.cpp.o
 
 # target to build an object file
 src/field.cpp.o:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/field.cpp.o
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/field.cpp.o
 .PHONY : src/field.cpp.o
 
 src/field.i: src/field.cpp.i
@@ -201,7 +201,7 @@ src/field.i: src/field.cpp.i
 
 # target to preprocess a source file
 src/field.cpp.i:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/field.cpp.i
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/field.cpp.i
 .PHONY : src/field.cpp.i
 
 src/field.s: src/field.cpp.s
@@ -210,7 +210,7 @@ src/field.s: src/field.cpp.s
 
 # target to generate assembly for a file
 src/field.cpp.s:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/field.cpp.s
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/field.cpp.s
 .PHONY : src/field.cpp.s
 
 src/field_binary.o: src/field_binary.cpp.o
@@ -219,7 +219,7 @@ src/field_binary.o: src/field_binary.cpp.o
 
 # target to build an object file
 src/field_binary.cpp.o:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/field_binary.cpp.o
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/field_binary.cpp.o
 .PHONY : src/field_binary.cpp.o
 
 src/field_binary.i: src/field_binary.cpp.i
@@ -228,7 +228,7 @@ src/field_binary.i: src/field_binary.cpp.i
 
 # target to preprocess a source file
 src/field_binary.cpp.i:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/field_binary.cpp.i
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/field_binary.cpp.i
 .PHONY : src/field_binary.cpp.i
 
 src/field_binary.s: src/field_binary.cpp.s
@@ -237,7 +237,7 @@ src/field_binary.s: src/field_binary.cpp.s
 
 # target to generate assembly for a file
 src/field_binary.cpp.s:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/field_binary.cpp.s
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/field_binary.cpp.s
 .PHONY : src/field_binary.cpp.s
 
 src/field_integer.o: src/field_integer.cpp.o
@@ -246,7 +246,7 @@ src/field_integer.o: src/field_integer.cpp.o
 
 # target to build an object file
 src/field_integer.cpp.o:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/field_integer.cpp.o
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/field_integer.cpp.o
 .PHONY : src/field_integer.cpp.o
 
 src/field_integer.i: src/field_integer.cpp.i
@@ -255,7 +255,7 @@ src/field_integer.i: src/field_integer.cpp.i
 
 # target to preprocess a source file
 src/field_integer.cpp.i:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/field_integer.cpp.i
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/field_integer.cpp.i
 .PHONY : src/field_integer.cpp.i
 
 src/field_integer.s: src/field_integer.cpp.s
@@ -264,7 +264,7 @@ src/field_integer.s: src/field_integer.cpp.s
 
 # target to generate assembly for a file
 src/field_integer.cpp.s:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/field_integer.cpp.s
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/field_integer.cpp.s
 .PHONY : src/field_integer.cpp.s
 
 src/field_string_ascii.o: src/field_string_ascii.cpp.o
@@ -273,7 +273,7 @@ src/field_string_ascii.o: src/field_string_ascii.cpp.o
 
 # target to build an object file
 src/field_string_ascii.cpp.o:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/field_string_ascii.cpp.o
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/field_string_ascii.cpp.o
 .PHONY : src/field_string_ascii.cpp.o
 
 src/field_string_ascii.i: src/field_string_ascii.cpp.i
@@ -282,7 +282,7 @@ src/field_string_ascii.i: src/field_string_ascii.cpp.i
 
 # target to preprocess a source file
 src/field_string_ascii.cpp.i:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/field_string_ascii.cpp.i
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/field_string_ascii.cpp.i
 .PHONY : src/field_string_ascii.cpp.i
 
 src/field_string_ascii.s: src/field_string_ascii.cpp.s
@@ -291,7 +291,7 @@ src/field_string_ascii.s: src/field_string_ascii.cpp.s
 
 # target to generate assembly for a file
 src/field_string_ascii.cpp.s:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/field_string_ascii.cpp.s
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/field_string_ascii.cpp.s
 .PHONY : src/field_string_ascii.cpp.s
 
 src/field_string_unicode.o: src/field_string_unicode.cpp.o
@@ -300,7 +300,7 @@ src/field_string_unicode.o: src/field_string_unicode.cpp.o
 
 # target to build an object file
 src/field_string_unicode.cpp.o:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/field_string_unicode.cpp.o
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/field_string_unicode.cpp.o
 .PHONY : src/field_string_unicode.cpp.o
 
 src/field_string_unicode.i: src/field_string_unicode.cpp.i
@@ -309,7 +309,7 @@ src/field_string_unicode.i: src/field_string_unicode.cpp.i
 
 # target to preprocess a source file
 src/field_string_unicode.cpp.i:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/field_string_unicode.cpp.i
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/field_string_unicode.cpp.i
 .PHONY : src/field_string_unicode.cpp.i
 
 src/field_string_unicode.s: src/field_string_unicode.cpp.s
@@ -318,7 +318,7 @@ src/field_string_unicode.s: src/field_string_unicode.cpp.s
 
 # target to generate assembly for a file
 src/field_string_unicode.cpp.s:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/field_string_unicode.cpp.s
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/field_string_unicode.cpp.s
 .PHONY : src/field_string_unicode.cpp.s
 
 src/frame.o: src/frame.cpp.o
@@ -327,7 +327,7 @@ src/frame.o: src/frame.cpp.o
 
 # target to build an object file
 src/frame.cpp.o:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/frame.cpp.o
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/frame.cpp.o
 .PHONY : src/frame.cpp.o
 
 src/frame.i: src/frame.cpp.i
@@ -336,7 +336,7 @@ src/frame.i: src/frame.cpp.i
 
 # target to preprocess a source file
 src/frame.cpp.i:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/frame.cpp.i
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/frame.cpp.i
 .PHONY : src/frame.cpp.i
 
 src/frame.s: src/frame.cpp.s
@@ -345,7 +345,7 @@ src/frame.s: src/frame.cpp.s
 
 # target to generate assembly for a file
 src/frame.cpp.s:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/frame.cpp.s
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/frame.cpp.s
 .PHONY : src/frame.cpp.s
 
 src/frame_impl.o: src/frame_impl.cpp.o
@@ -354,7 +354,7 @@ src/frame_impl.o: src/frame_impl.cpp.o
 
 # target to build an object file
 src/frame_impl.cpp.o:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/frame_impl.cpp.o
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/frame_impl.cpp.o
 .PHONY : src/frame_impl.cpp.o
 
 src/frame_impl.i: src/frame_impl.cpp.i
@@ -363,7 +363,7 @@ src/frame_impl.i: src/frame_impl.cpp.i
 
 # target to preprocess a source file
 src/frame_impl.cpp.i:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/frame_impl.cpp.i
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/frame_impl.cpp.i
 .PHONY : src/frame_impl.cpp.i
 
 src/frame_impl.s: src/frame_impl.cpp.s
@@ -372,7 +372,7 @@ src/frame_impl.s: src/frame_impl.cpp.s
 
 # target to generate assembly for a file
 src/frame_impl.cpp.s:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/frame_impl.cpp.s
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/frame_impl.cpp.s
 .PHONY : src/frame_impl.cpp.s
 
 src/frame_parse.o: src/frame_parse.cpp.o
@@ -381,7 +381,7 @@ src/frame_parse.o: src/frame_parse.cpp.o
 
 # target to build an object file
 src/frame_parse.cpp.o:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/frame_parse.cpp.o
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/frame_parse.cpp.o
 .PHONY : src/frame_parse.cpp.o
 
 src/frame_parse.i: src/frame_parse.cpp.i
@@ -390,7 +390,7 @@ src/frame_parse.i: src/frame_parse.cpp.i
 
 # target to preprocess a source file
 src/frame_parse.cpp.i:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/frame_parse.cpp.i
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/frame_parse.cpp.i
 .PHONY : src/frame_parse.cpp.i
 
 src/frame_parse.s: src/frame_parse.cpp.s
@@ -399,7 +399,7 @@ src/frame_parse.s: src/frame_parse.cpp.s
 
 # target to generate assembly for a file
 src/frame_parse.cpp.s:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/frame_parse.cpp.s
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/frame_parse.cpp.s
 .PHONY : src/frame_parse.cpp.s
 
 src/frame_render.o: src/frame_render.cpp.o
@@ -408,7 +408,7 @@ src/frame_render.o: src/frame_render.cpp.o
 
 # target to build an object file
 src/frame_render.cpp.o:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/frame_render.cpp.o
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/frame_render.cpp.o
 .PHONY : src/frame_render.cpp.o
 
 src/frame_render.i: src/frame_render.cpp.i
@@ -417,7 +417,7 @@ src/frame_render.i: src/frame_render.cpp.i
 
 # target to preprocess a source file
 src/frame_render.cpp.i:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/frame_render.cpp.i
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/frame_render.cpp.i
 .PHONY : src/frame_render.cpp.i
 
 src/frame_render.s: src/frame_render.cpp.s
@@ -426,7 +426,7 @@ src/frame_render.s: src/frame_render.cpp.s
 
 # target to generate assembly for a file
 src/frame_render.cpp.s:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/frame_render.cpp.s
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/frame_render.cpp.s
 .PHONY : src/frame_render.cpp.s
 
 src/globals.o: src/globals.cpp.o
@@ -435,7 +435,7 @@ src/globals.o: src/globals.cpp.o
 
 # target to build an object file
 src/globals.cpp.o:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/globals.cpp.o
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/globals.cpp.o
 .PHONY : src/globals.cpp.o
 
 src/globals.i: src/globals.cpp.i
@@ -444,7 +444,7 @@ src/globals.i: src/globals.cpp.i
 
 # target to preprocess a source file
 src/globals.cpp.i:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/globals.cpp.i
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/globals.cpp.i
 .PHONY : src/globals.cpp.i
 
 src/globals.s: src/globals.cpp.s
@@ -453,7 +453,7 @@ src/globals.s: src/globals.cpp.s
 
 # target to generate assembly for a file
 src/globals.cpp.s:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/globals.cpp.s
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/globals.cpp.s
 .PHONY : src/globals.cpp.s
 
 src/header.o: src/header.cpp.o
@@ -462,7 +462,7 @@ src/header.o: src/header.cpp.o
 
 # target to build an object file
 src/header.cpp.o:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/header.cpp.o
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/header.cpp.o
 .PHONY : src/header.cpp.o
 
 src/header.i: src/header.cpp.i
@@ -471,7 +471,7 @@ src/header.i: src/header.cpp.i
 
 # target to preprocess a source file
 src/header.cpp.i:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/header.cpp.i
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/header.cpp.i
 .PHONY : src/header.cpp.i
 
 src/header.s: src/header.cpp.s
@@ -480,7 +480,7 @@ src/header.s: src/header.cpp.s
 
 # target to generate assembly for a file
 src/header.cpp.s:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/header.cpp.s
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/header.cpp.s
 .PHONY : src/header.cpp.s
 
 src/header_frame.o: src/header_frame.cpp.o
@@ -489,7 +489,7 @@ src/header_frame.o: src/header_frame.cpp.o
 
 # target to build an object file
 src/header_frame.cpp.o:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/header_frame.cpp.o
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/header_frame.cpp.o
 .PHONY : src/header_frame.cpp.o
 
 src/header_frame.i: src/header_frame.cpp.i
@@ -498,7 +498,7 @@ src/header_frame.i: src/header_frame.cpp.i
 
 # target to preprocess a source file
 src/header_frame.cpp.i:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/header_frame.cpp.i
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/header_frame.cpp.i
 .PHONY : src/header_frame.cpp.i
 
 src/header_frame.s: src/header_frame.cpp.s
@@ -507,7 +507,7 @@ src/header_frame.s: src/header_frame.cpp.s
 
 # target to generate assembly for a file
 src/header_frame.cpp.s:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/header_frame.cpp.s
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/header_frame.cpp.s
 .PHONY : src/header_frame.cpp.s
 
 src/header_tag.o: src/header_tag.cpp.o
@@ -516,7 +516,7 @@ src/header_tag.o: src/header_tag.cpp.o
 
 # target to build an object file
 src/header_tag.cpp.o:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/header_tag.cpp.o
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/header_tag.cpp.o
 .PHONY : src/header_tag.cpp.o
 
 src/header_tag.i: src/header_tag.cpp.i
@@ -525,7 +525,7 @@ src/header_tag.i: src/header_tag.cpp.i
 
 # target to preprocess a source file
 src/header_tag.cpp.i:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/header_tag.cpp.i
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/header_tag.cpp.i
 .PHONY : src/header_tag.cpp.i
 
 src/header_tag.s: src/header_tag.cpp.s
@@ -534,7 +534,7 @@ src/header_tag.s: src/header_tag.cpp.s
 
 # target to generate assembly for a file
 src/header_tag.cpp.s:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/header_tag.cpp.s
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/header_tag.cpp.s
 .PHONY : src/header_tag.cpp.s
 
 src/helpers.o: src/helpers.cpp.o
@@ -543,7 +543,7 @@ src/helpers.o: src/helpers.cpp.o
 
 # target to build an object file
 src/helpers.cpp.o:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/helpers.cpp.o
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/helpers.cpp.o
 .PHONY : src/helpers.cpp.o
 
 src/helpers.i: src/helpers.cpp.i
@@ -552,7 +552,7 @@ src/helpers.i: src/helpers.cpp.i
 
 # target to preprocess a source file
 src/helpers.cpp.i:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/helpers.cpp.i
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/helpers.cpp.i
 .PHONY : src/helpers.cpp.i
 
 src/helpers.s: src/helpers.cpp.s
@@ -561,7 +561,7 @@ src/helpers.s: src/helpers.cpp.s
 
 # target to generate assembly for a file
 src/helpers.cpp.s:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/helpers.cpp.s
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/helpers.cpp.s
 .PHONY : src/helpers.cpp.s
 
 src/io.o: src/io.cpp.o
@@ -570,7 +570,7 @@ src/io.o: src/io.cpp.o
 
 # target to build an object file
 src/io.cpp.o:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/io.cpp.o
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/io.cpp.o
 .PHONY : src/io.cpp.o
 
 src/io.i: src/io.cpp.i
@@ -579,7 +579,7 @@ src/io.i: src/io.cpp.i
 
 # target to preprocess a source file
 src/io.cpp.i:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/io.cpp.i
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/io.cpp.i
 .PHONY : src/io.cpp.i
 
 src/io.s: src/io.cpp.s
@@ -588,7 +588,7 @@ src/io.s: src/io.cpp.s
 
 # target to generate assembly for a file
 src/io.cpp.s:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/io.cpp.s
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/io.cpp.s
 .PHONY : src/io.cpp.s
 
 src/io_decorators.o: src/io_decorators.cpp.o
@@ -597,7 +597,7 @@ src/io_decorators.o: src/io_decorators.cpp.o
 
 # target to build an object file
 src/io_decorators.cpp.o:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/io_decorators.cpp.o
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/io_decorators.cpp.o
 .PHONY : src/io_decorators.cpp.o
 
 src/io_decorators.i: src/io_decorators.cpp.i
@@ -606,7 +606,7 @@ src/io_decorators.i: src/io_decorators.cpp.i
 
 # target to preprocess a source file
 src/io_decorators.cpp.i:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/io_decorators.cpp.i
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/io_decorators.cpp.i
 .PHONY : src/io_decorators.cpp.i
 
 src/io_decorators.s: src/io_decorators.cpp.s
@@ -615,7 +615,7 @@ src/io_decorators.s: src/io_decorators.cpp.s
 
 # target to generate assembly for a file
 src/io_decorators.cpp.s:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/io_decorators.cpp.s
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/io_decorators.cpp.s
 .PHONY : src/io_decorators.cpp.s
 
 src/io_helpers.o: src/io_helpers.cpp.o
@@ -624,7 +624,7 @@ src/io_helpers.o: src/io_helpers.cpp.o
 
 # target to build an object file
 src/io_helpers.cpp.o:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/io_helpers.cpp.o
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/io_helpers.cpp.o
 .PHONY : src/io_helpers.cpp.o
 
 src/io_helpers.i: src/io_helpers.cpp.i
@@ -633,7 +633,7 @@ src/io_helpers.i: src/io_helpers.cpp.i
 
 # target to preprocess a source file
 src/io_helpers.cpp.i:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/io_helpers.cpp.i
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/io_helpers.cpp.i
 .PHONY : src/io_helpers.cpp.i
 
 src/io_helpers.s: src/io_helpers.cpp.s
@@ -642,7 +642,7 @@ src/io_helpers.s: src/io_helpers.cpp.s
 
 # target to generate assembly for a file
 src/io_helpers.cpp.s:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/io_helpers.cpp.s
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/io_helpers.cpp.s
 .PHONY : src/io_helpers.cpp.s
 
 src/misc_support.o: src/misc_support.cpp.o
@@ -651,7 +651,7 @@ src/misc_support.o: src/misc_support.cpp.o
 
 # target to build an object file
 src/misc_support.cpp.o:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/misc_support.cpp.o
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/misc_support.cpp.o
 .PHONY : src/misc_support.cpp.o
 
 src/misc_support.i: src/misc_support.cpp.i
@@ -660,7 +660,7 @@ src/misc_support.i: src/misc_support.cpp.i
 
 # target to preprocess a source file
 src/misc_support.cpp.i:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/misc_support.cpp.i
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/misc_support.cpp.i
 .PHONY : src/misc_support.cpp.i
 
 src/misc_support.s: src/misc_support.cpp.s
@@ -669,7 +669,7 @@ src/misc_support.s: src/misc_support.cpp.s
 
 # target to generate assembly for a file
 src/misc_support.cpp.s:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/misc_support.cpp.s
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/misc_support.cpp.s
 .PHONY : src/misc_support.cpp.s
 
 src/mp3_parse.o: src/mp3_parse.cpp.o
@@ -678,7 +678,7 @@ src/mp3_parse.o: src/mp3_parse.cpp.o
 
 # target to build an object file
 src/mp3_parse.cpp.o:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/mp3_parse.cpp.o
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/mp3_parse.cpp.o
 .PHONY : src/mp3_parse.cpp.o
 
 src/mp3_parse.i: src/mp3_parse.cpp.i
@@ -687,7 +687,7 @@ src/mp3_parse.i: src/mp3_parse.cpp.i
 
 # target to preprocess a source file
 src/mp3_parse.cpp.i:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/mp3_parse.cpp.i
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/mp3_parse.cpp.i
 .PHONY : src/mp3_parse.cpp.i
 
 src/mp3_parse.s: src/mp3_parse.cpp.s
@@ -696,7 +696,7 @@ src/mp3_parse.s: src/mp3_parse.cpp.s
 
 # target to generate assembly for a file
 src/mp3_parse.cpp.s:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/mp3_parse.cpp.s
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/mp3_parse.cpp.s
 .PHONY : src/mp3_parse.cpp.s
 
 src/readers.o: src/readers.cpp.o
@@ -705,7 +705,7 @@ src/readers.o: src/readers.cpp.o
 
 # target to build an object file
 src/readers.cpp.o:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/readers.cpp.o
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/readers.cpp.o
 .PHONY : src/readers.cpp.o
 
 src/readers.i: src/readers.cpp.i
@@ -714,7 +714,7 @@ src/readers.i: src/readers.cpp.i
 
 # target to preprocess a source file
 src/readers.cpp.i:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/readers.cpp.i
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/readers.cpp.i
 .PHONY : src/readers.cpp.i
 
 src/readers.s: src/readers.cpp.s
@@ -723,7 +723,7 @@ src/readers.s: src/readers.cpp.s
 
 # target to generate assembly for a file
 src/readers.cpp.s:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/readers.cpp.s
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/readers.cpp.s
 .PHONY : src/readers.cpp.s
 
 src/spec.o: src/spec.cpp.o
@@ -732,7 +732,7 @@ src/spec.o: src/spec.cpp.o
 
 # target to build an object file
 src/spec.cpp.o:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/spec.cpp.o
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/spec.cpp.o
 .PHONY : src/spec.cpp.o
 
 src/spec.i: src/spec.cpp.i
@@ -741,7 +741,7 @@ src/spec.i: src/spec.cpp.i
 
 # target to preprocess a source file
 src/spec.cpp.i:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/spec.cpp.i
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/spec.cpp.i
 .PHONY : src/spec.cpp.i
 
 src/spec.s: src/spec.cpp.s
@@ -750,7 +750,7 @@ src/spec.s: src/spec.cpp.s
 
 # target to generate assembly for a file
 src/spec.cpp.s:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/spec.cpp.s
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/spec.cpp.s
 .PHONY : src/spec.cpp.s
 
 src/tag.o: src/tag.cpp.o
@@ -759,7 +759,7 @@ src/tag.o: src/tag.cpp.o
 
 # target to build an object file
 src/tag.cpp.o:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/tag.cpp.o
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/tag.cpp.o
 .PHONY : src/tag.cpp.o
 
 src/tag.i: src/tag.cpp.i
@@ -768,7 +768,7 @@ src/tag.i: src/tag.cpp.i
 
 # target to preprocess a source file
 src/tag.cpp.i:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/tag.cpp.i
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/tag.cpp.i
 .PHONY : src/tag.cpp.i
 
 src/tag.s: src/tag.cpp.s
@@ -777,7 +777,7 @@ src/tag.s: src/tag.cpp.s
 
 # target to generate assembly for a file
 src/tag.cpp.s:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/tag.cpp.s
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/tag.cpp.s
 .PHONY : src/tag.cpp.s
 
 src/tag_file.o: src/tag_file.cpp.o
@@ -786,7 +786,7 @@ src/tag_file.o: src/tag_file.cpp.o
 
 # target to build an object file
 src/tag_file.cpp.o:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/tag_file.cpp.o
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/tag_file.cpp.o
 .PHONY : src/tag_file.cpp.o
 
 src/tag_file.i: src/tag_file.cpp.i
@@ -795,7 +795,7 @@ src/tag_file.i: src/tag_file.cpp.i
 
 # target to preprocess a source file
 src/tag_file.cpp.i:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/tag_file.cpp.i
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/tag_file.cpp.i
 .PHONY : src/tag_file.cpp.i
 
 src/tag_file.s: src/tag_file.cpp.s
@@ -804,7 +804,7 @@ src/tag_file.s: src/tag_file.cpp.s
 
 # target to generate assembly for a file
 src/tag_file.cpp.s:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/tag_file.cpp.s
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/tag_file.cpp.s
 .PHONY : src/tag_file.cpp.s
 
 src/tag_find.o: src/tag_find.cpp.o
@@ -813,7 +813,7 @@ src/tag_find.o: src/tag_find.cpp.o
 
 # target to build an object file
 src/tag_find.cpp.o:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/tag_find.cpp.o
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/tag_find.cpp.o
 .PHONY : src/tag_find.cpp.o
 
 src/tag_find.i: src/tag_find.cpp.i
@@ -822,7 +822,7 @@ src/tag_find.i: src/tag_find.cpp.i
 
 # target to preprocess a source file
 src/tag_find.cpp.i:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/tag_find.cpp.i
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/tag_find.cpp.i
 .PHONY : src/tag_find.cpp.i
 
 src/tag_find.s: src/tag_find.cpp.s
@@ -831,7 +831,7 @@ src/tag_find.s: src/tag_find.cpp.s
 
 # target to generate assembly for a file
 src/tag_find.cpp.s:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/tag_find.cpp.s
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/tag_find.cpp.s
 .PHONY : src/tag_find.cpp.s
 
 src/tag_impl.o: src/tag_impl.cpp.o
@@ -840,7 +840,7 @@ src/tag_impl.o: src/tag_impl.cpp.o
 
 # target to build an object file
 src/tag_impl.cpp.o:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/tag_impl.cpp.o
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/tag_impl.cpp.o
 .PHONY : src/tag_impl.cpp.o
 
 src/tag_impl.i: src/tag_impl.cpp.i
@@ -849,7 +849,7 @@ src/tag_impl.i: src/tag_impl.cpp.i
 
 # target to preprocess a source file
 src/tag_impl.cpp.i:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/tag_impl.cpp.i
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/tag_impl.cpp.i
 .PHONY : src/tag_impl.cpp.i
 
 src/tag_impl.s: src/tag_impl.cpp.s
@@ -858,7 +858,7 @@ src/tag_impl.s: src/tag_impl.cpp.s
 
 # target to generate assembly for a file
 src/tag_impl.cpp.s:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/tag_impl.cpp.s
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/tag_impl.cpp.s
 .PHONY : src/tag_impl.cpp.s
 
 src/tag_parse.o: src/tag_parse.cpp.o
@@ -867,7 +867,7 @@ src/tag_parse.o: src/tag_parse.cpp.o
 
 # target to build an object file
 src/tag_parse.cpp.o:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/tag_parse.cpp.o
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/tag_parse.cpp.o
 .PHONY : src/tag_parse.cpp.o
 
 src/tag_parse.i: src/tag_parse.cpp.i
@@ -876,7 +876,7 @@ src/tag_parse.i: src/tag_parse.cpp.i
 
 # target to preprocess a source file
 src/tag_parse.cpp.i:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/tag_parse.cpp.i
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/tag_parse.cpp.i
 .PHONY : src/tag_parse.cpp.i
 
 src/tag_parse.s: src/tag_parse.cpp.s
@@ -885,7 +885,7 @@ src/tag_parse.s: src/tag_parse.cpp.s
 
 # target to generate assembly for a file
 src/tag_parse.cpp.s:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/tag_parse.cpp.s
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/tag_parse.cpp.s
 .PHONY : src/tag_parse.cpp.s
 
 src/tag_parse_lyrics3.o: src/tag_parse_lyrics3.cpp.o
@@ -894,7 +894,7 @@ src/tag_parse_lyrics3.o: src/tag_parse_lyrics3.cpp.o
 
 # target to build an object file
 src/tag_parse_lyrics3.cpp.o:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/tag_parse_lyrics3.cpp.o
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/tag_parse_lyrics3.cpp.o
 .PHONY : src/tag_parse_lyrics3.cpp.o
 
 src/tag_parse_lyrics3.i: src/tag_parse_lyrics3.cpp.i
@@ -903,7 +903,7 @@ src/tag_parse_lyrics3.i: src/tag_parse_lyrics3.cpp.i
 
 # target to preprocess a source file
 src/tag_parse_lyrics3.cpp.i:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/tag_parse_lyrics3.cpp.i
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/tag_parse_lyrics3.cpp.i
 .PHONY : src/tag_parse_lyrics3.cpp.i
 
 src/tag_parse_lyrics3.s: src/tag_parse_lyrics3.cpp.s
@@ -912,7 +912,7 @@ src/tag_parse_lyrics3.s: src/tag_parse_lyrics3.cpp.s
 
 # target to generate assembly for a file
 src/tag_parse_lyrics3.cpp.s:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/tag_parse_lyrics3.cpp.s
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/tag_parse_lyrics3.cpp.s
 .PHONY : src/tag_parse_lyrics3.cpp.s
 
 src/tag_parse_musicmatch.o: src/tag_parse_musicmatch.cpp.o
@@ -921,7 +921,7 @@ src/tag_parse_musicmatch.o: src/tag_parse_musicmatch.cpp.o
 
 # target to build an object file
 src/tag_parse_musicmatch.cpp.o:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/tag_parse_musicmatch.cpp.o
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/tag_parse_musicmatch.cpp.o
 .PHONY : src/tag_parse_musicmatch.cpp.o
 
 src/tag_parse_musicmatch.i: src/tag_parse_musicmatch.cpp.i
@@ -930,7 +930,7 @@ src/tag_parse_musicmatch.i: src/tag_parse_musicmatch.cpp.i
 
 # target to preprocess a source file
 src/tag_parse_musicmatch.cpp.i:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/tag_parse_musicmatch.cpp.i
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/tag_parse_musicmatch.cpp.i
 .PHONY : src/tag_parse_musicmatch.cpp.i
 
 src/tag_parse_musicmatch.s: src/tag_parse_musicmatch.cpp.s
@@ -939,7 +939,7 @@ src/tag_parse_musicmatch.s: src/tag_parse_musicmatch.cpp.s
 
 # target to generate assembly for a file
 src/tag_parse_musicmatch.cpp.s:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/tag_parse_musicmatch.cpp.s
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/tag_parse_musicmatch.cpp.s
 .PHONY : src/tag_parse_musicmatch.cpp.s
 
 src/tag_parse_v1.o: src/tag_parse_v1.cpp.o
@@ -948,7 +948,7 @@ src/tag_parse_v1.o: src/tag_parse_v1.cpp.o
 
 # target to build an object file
 src/tag_parse_v1.cpp.o:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/tag_parse_v1.cpp.o
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/tag_parse_v1.cpp.o
 .PHONY : src/tag_parse_v1.cpp.o
 
 src/tag_parse_v1.i: src/tag_parse_v1.cpp.i
@@ -957,7 +957,7 @@ src/tag_parse_v1.i: src/tag_parse_v1.cpp.i
 
 # target to preprocess a source file
 src/tag_parse_v1.cpp.i:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/tag_parse_v1.cpp.i
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/tag_parse_v1.cpp.i
 .PHONY : src/tag_parse_v1.cpp.i
 
 src/tag_parse_v1.s: src/tag_parse_v1.cpp.s
@@ -966,7 +966,7 @@ src/tag_parse_v1.s: src/tag_parse_v1.cpp.s
 
 # target to generate assembly for a file
 src/tag_parse_v1.cpp.s:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/tag_parse_v1.cpp.s
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/tag_parse_v1.cpp.s
 .PHONY : src/tag_parse_v1.cpp.s
 
 src/tag_render.o: src/tag_render.cpp.o
@@ -975,7 +975,7 @@ src/tag_render.o: src/tag_render.cpp.o
 
 # target to build an object file
 src/tag_render.cpp.o:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/tag_render.cpp.o
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/tag_render.cpp.o
 .PHONY : src/tag_render.cpp.o
 
 src/tag_render.i: src/tag_render.cpp.i
@@ -984,7 +984,7 @@ src/tag_render.i: src/tag_render.cpp.i
 
 # target to preprocess a source file
 src/tag_render.cpp.i:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/tag_render.cpp.i
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/tag_render.cpp.i
 .PHONY : src/tag_render.cpp.i
 
 src/tag_render.s: src/tag_render.cpp.s
@@ -993,7 +993,7 @@ src/tag_render.s: src/tag_render.cpp.s
 
 # target to generate assembly for a file
 src/tag_render.cpp.s:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/tag_render.cpp.s
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/tag_render.cpp.s
 .PHONY : src/tag_render.cpp.s
 
 src/utils.o: src/utils.cpp.o
@@ -1002,7 +1002,7 @@ src/utils.o: src/utils.cpp.o
 
 # target to build an object file
 src/utils.cpp.o:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/utils.cpp.o
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/utils.cpp.o
 .PHONY : src/utils.cpp.o
 
 src/utils.i: src/utils.cpp.i
@@ -1011,7 +1011,7 @@ src/utils.i: src/utils.cpp.i
 
 # target to preprocess a source file
 src/utils.cpp.i:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/utils.cpp.i
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/utils.cpp.i
 .PHONY : src/utils.cpp.i
 
 src/utils.s: src/utils.cpp.s
@@ -1020,35 +1020,8 @@ src/utils.s: src/utils.cpp.s
 
 # target to generate assembly for a file
 src/utils.cpp.s:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/utils.cpp.s
+	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/port/id3lib/CMakeFiles/id3lib.dir/build.make source/port/id3lib/CMakeFiles/id3lib.dir/src/utils.cpp.s
 .PHONY : src/utils.cpp.s
-
-src/writers.o: src/writers.cpp.o
-
-.PHONY : src/writers.o
-
-# target to build an object file
-src/writers.cpp.o:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/writers.cpp.o
-.PHONY : src/writers.cpp.o
-
-src/writers.i: src/writers.cpp.i
-
-.PHONY : src/writers.i
-
-# target to preprocess a source file
-src/writers.cpp.i:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/writers.cpp.i
-.PHONY : src/writers.cpp.i
-
-src/writers.s: src/writers.cpp.s
-
-.PHONY : src/writers.s
-
-# target to generate assembly for a file
-src/writers.cpp.s:
-	cd /home/pi/solution/basis && $(MAKE) $(MAKESILENT) -f source/third/id3lib/CMakeFiles/id3lib.dir/build.make source/third/id3lib/CMakeFiles/id3lib.dir/src/writers.cpp.s
-.PHONY : src/writers.cpp.s
 
 # Help Target
 help:
@@ -1158,9 +1131,6 @@ help:
 	@echo "... src/utils.o"
 	@echo "... src/utils.i"
 	@echo "... src/utils.s"
-	@echo "... src/writers.o"
-	@echo "... src/writers.i"
-	@echo "... src/writers.s"
 .PHONY : help
 
 
