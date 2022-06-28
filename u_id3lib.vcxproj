@@ -133,7 +133,6 @@
     <ClCompile Include="src\tag_parse_v1.cpp" />
     <ClCompile Include="src\tag_render.cpp" />
     <ClCompile Include="src\utils.cpp" />
-    <ClCompile Include="src\writers.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\app\acme\u_acme.vcxproj">
