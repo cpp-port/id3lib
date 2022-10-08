@@ -1,7 +1,7 @@
 #include "acme/_start.h"
 #include "acme/_.h"
 #include "id3/readers.h"
-#include "acme/_defer.h"
+//#include "acme/_defer.h"
 
 
 ID3_IStreamReader::ID3_IStreamReader(::file::file* reader) : m_pfile(reader) { ; }
