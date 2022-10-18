@@ -94,9 +94,6 @@
     <ClCompile Include="src\utils.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
-    <ClCompile Include="src\writers.cpp">
-      <Filter>Source Files\src</Filter>
-    </ClCompile>
     <ClCompile Include="ca2_readers.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
