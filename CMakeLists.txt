@@ -106,7 +106,7 @@ target_include_directories(${PROJECT_NAME} PRIVATE ${library_include_directories
 target_include_directories(id3lib PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/src)
 
 
-target_compile_definitions(id3lib PRIVATE _APP_CORE_AUDIO_LIBRARY)
+target_compile_definitions(id3lib PRIVATE _ID3_LIBRARY)
 
 
 
