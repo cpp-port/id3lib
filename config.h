@@ -68,6 +68,7 @@
 
 #ifdef ANDROID
 #define HAVE_UNISTD_H 1
+#define HAVE_SYS_STAT_H 1
 #endif
 
 /* Define if you have the <cctype> header file.  */
