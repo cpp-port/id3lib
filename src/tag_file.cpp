@@ -49,7 +49,7 @@ using namespace dami;
 #  include <sys/stat.h>
 #endif
 #if defined _UWP
-static int truncate(const char * path, size_t length)
+static int truncate(const ::file::path & path, size_t length)
 {
    return -1;
 }
