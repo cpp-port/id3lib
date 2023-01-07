@@ -1,4 +1,4 @@
-// -*- C++ -*-
+﻿// -*- C++ -*-
 // $Id: readers.h,v 1.12 2002/06/29 17:43:42 t1mpy Exp $
 
 // id3lib: a software library for creating and manipulating id3v1/v2 tags
@@ -33,28 +33,20 @@
 #include "id3/reader.h"
 
 
-namespace file
-{
-
-
-  class file;
-
-
-} // namespace file
-
+#include "_interface_readers.h"
 
 class ID3_CPP_EXPORT ID3_IStreamReader : public ID3_Reader
 {
 protected:
 
 
-  ::file::file * m_pfile;
+  ::id3lib::reader * m_pfile;
 
 
 public:
 
 
-  ID3_IStreamReader(file::file * pfile);
+  ID3_IStreamReader(::id3lib::reader * pfile);
   virtual ~ID3_IStreamReader();
   virtual void close();
   
@@ -87,7 +79,7 @@ class ID3_CPP_EXPORT ID3_IFStreamReader : public ID3_IStreamReader
 public:
 
 
-  ID3_IFStreamReader(::file::file * preader);
+  ID3_IFStreamReader(::id3lib::reader * preader);
   virtual void close();
 
 

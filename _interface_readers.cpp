@@ -1,3 +1,4 @@
+﻿// Changed to use _interface_file by camilo on 2023-01-06 20:47 <3ThomasBorregaardSorensen!!
 #include "framework.h"
 //#include "acme/_start.h"
 #include "acme/_.h"
@@ -6,7 +7,7 @@
 //#include "acme/_defer.h"
 
 
-ID3_IStreamReader::ID3_IStreamReader(::file::file* reader) : m_pfile(reader) { ; }
+ID3_IStreamReader::ID3_IStreamReader(::id3lib::reader * reader) : m_pfile(reader) { ; }
    ID3_IStreamReader::~ID3_IStreamReader() { ; }
    void ID3_IStreamReader::close() { ; }
 
@@ -26,14 +27,14 @@ ID3_IStreamReader::ID3_IStreamReader(::file::file* reader) : m_pfile(reader) { ;
 
    ID3_Reader::pos_type ID3_IStreamReader::getBeg() { return 0; }
    ID3_Reader::pos_type ID3_IStreamReader::getCur() { return (pos_type)m_pfile->get_position(); }
-   ID3_Reader::pos_type ID3_IStreamReader::getEnd() { return (pos_type)m_pfile->get_size(); }
+   ID3_Reader::pos_type ID3_IStreamReader::getEnd() { return (pos_type)m_pfile->size(); }
 
    /** Set the value of the internal position for reading.
     **/
    ID3_Reader::pos_type ID3_IStreamReader::setCur(pos_type pos) { m_pfile->set_position(pos); return pos; }
 
 
-   ID3_IFStreamReader::ID3_IFStreamReader(::file::file* reader)
+   ID3_IFStreamReader::ID3_IFStreamReader(::id3lib::reader* reader)
       : ID3_IStreamReader(reader) { }
 
    void ID3_IFStreamReader::close()

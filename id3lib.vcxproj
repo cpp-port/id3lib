@@ -66,13 +66,14 @@
     <ClInclude Include="src\mp3_header.h" />
     <ClInclude Include="src\spec.h" />
     <ClInclude Include="src\tag_impl.h" />
+    <ClInclude Include="_interface_readers.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\source\app\include\id3\aaa_want_to_remove_id3lib_bitset" />
     <None Include="id3lib.def" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ca2_readers.cpp" />
+    <ClCompile Include="_interface_readers.cpp" />
     <ClCompile Include="src\field.cpp" />
     <ClCompile Include="src\field_binary.cpp" />
     <ClCompile Include="src\field_integer.cpp" />

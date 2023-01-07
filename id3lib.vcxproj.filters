@@ -119,6 +119,9 @@
     <ClInclude Include="..\..\..\operating-system\third-windows\third\include\id3\readers.h">
       <Filter>Header Files\include\id3</Filter>
     </ClInclude>
+    <ClInclude Include="_interface_readers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="id3lib.def">
@@ -220,7 +223,7 @@
     <ClCompile Include="src\utils.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
-    <ClCompile Include="ca2_readers.cpp">
+    <ClCompile Include="_interface_readers.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
   </ItemGroup>
