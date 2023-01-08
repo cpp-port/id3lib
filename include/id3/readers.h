@@ -31,9 +31,8 @@
 
 #include "id3/id3lib_streams.h"
 #include "id3/reader.h"
+#include "id3/_interface_readers.h"
 
-
-#include "_interface_readers.h"
 
 class ID3_CPP_EXPORT ID3_IStreamReader : public ID3_Reader
 {
