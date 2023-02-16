@@ -19,7 +19,6 @@
 		9A903FE2284B2F75006B9FD2 /* header.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AEC323526D099080078C8A4 /* header.h */; };
 		9A903FE3284B2F75006B9FD2 /* tag_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AEC325326D099080078C8A4 /* tag_impl.h */; };
 		9A903FE5284B2F75006B9FD2 /* header_frame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC324126D099080078C8A4 /* header_frame.cpp */; };
-		9A903FE6284B2F75006B9FD2 /* ca2_readers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC328B26D09FE80078C8A4 /* ca2_readers.cpp */; };
 		9A903FE7284B2F75006B9FD2 /* globals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC324026D099080078C8A4 /* globals.cpp */; };
 		9A903FE8284B2F75006B9FD2 /* tag_parse_v1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC323926D099080078C8A4 /* tag_parse_v1.cpp */; };
 		9A903FE9284B2F75006B9FD2 /* tag_parse_lyrics3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC325626D099080078C8A4 /* tag_parse_lyrics3.cpp */; };
@@ -50,6 +49,8 @@
 		9A904003284B2F75006B9FD2 /* readers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC323826D099080078C8A4 /* readers.cpp */; };
 		9A904004284B2F75006B9FD2 /* tag_impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC324F26D099080078C8A4 /* tag_impl.cpp */; };
 		9A904005284B2F75006B9FD2 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC323126D099080078C8A4 /* utils.cpp */; };
+		9A908359299BE08800DAE51B /* _interface_readers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A908358299BE08800DAE51B /* _interface_readers.cpp */; };
+		9A90835A299BE08800DAE51B /* _interface_readers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A908358299BE08800DAE51B /* _interface_readers.cpp */; };
 		9AEC325926D099080078C8A4 /* helpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC322B26D099070078C8A4 /* helpers.cpp */; };
 		9AEC325A26D099080078C8A4 /* field_string_unicode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC322C26D099070078C8A4 /* field_string_unicode.cpp */; };
 		9AEC325B26D099080078C8A4 /* misc_support.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC322D26D099070078C8A4 /* misc_support.cpp */; };
@@ -93,11 +94,11 @@
 		9AEC328326D099080078C8A4 /* frame_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AEC325726D099080078C8A4 /* frame_impl.h */; };
 		9AEC328426D099080078C8A4 /* io_helpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC325826D099080078C8A4 /* io_helpers.cpp */; };
 		9AEC328926D09F9A0078C8A4 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AEC328826D09F9A0078C8A4 /* libz.tbd */; };
-		9AEC328C26D09FE80078C8A4 /* ca2_readers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC328B26D09FE80078C8A4 /* ca2_readers.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9A90400B284B2F75006B9FD2 /* libios_id3lib.a */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libios_id3lib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A908358299BE08800DAE51B /* _interface_readers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = _interface_readers.cpp; sourceTree = SOURCE_ROOT; };
 		9AEC321826D098A00078C8A4 /* libid3lib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libid3lib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AEC322B26D099070078C8A4 /* helpers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = helpers.cpp; sourceTree = "<group>"; };
 		9AEC322C26D099070078C8A4 /* field_string_unicode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = field_string_unicode.cpp; sourceTree = "<group>"; };
@@ -144,7 +145,6 @@
 		9AEC325726D099080078C8A4 /* frame_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = frame_impl.h; sourceTree = "<group>"; };
 		9AEC325826D099080078C8A4 /* io_helpers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = io_helpers.cpp; sourceTree = "<group>"; };
 		9AEC328826D09F9A0078C8A4 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		9AEC328B26D09FE80078C8A4 /* ca2_readers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ca2_readers.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,7 +162,7 @@
 		9AEC320F26D098A00078C8A4 = {
 			isa = PBXGroup;
 			children = (
-				9AEC328B26D09FE80078C8A4 /* ca2_readers.cpp */,
+				9A908358299BE08800DAE51B /* _interface_readers.cpp */,
 				9AEC322A26D099070078C8A4 /* src */,
 				9AEC321926D098A00078C8A4 /* Products */,
 				9AEC328726D09F9A0078C8A4 /* Frameworks */,
@@ -350,7 +350,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A903FE5284B2F75006B9FD2 /* header_frame.cpp in Sources */,
-				9A903FE6284B2F75006B9FD2 /* ca2_readers.cpp in Sources */,
 				9A903FE7284B2F75006B9FD2 /* globals.cpp in Sources */,
 				9A903FE8284B2F75006B9FD2 /* tag_parse_v1.cpp in Sources */,
 				9A903FE9284B2F75006B9FD2 /* tag_parse_lyrics3.cpp in Sources */,
@@ -378,6 +377,7 @@
 				9A904000284B2F75006B9FD2 /* tag_find.cpp in Sources */,
 				9A904001284B2F75006B9FD2 /* io_decorators.cpp in Sources */,
 				9A904002284B2F75006B9FD2 /* spec.cpp in Sources */,
+				9A90835A299BE08800DAE51B /* _interface_readers.cpp in Sources */,
 				9A904003284B2F75006B9FD2 /* readers.cpp in Sources */,
 				9A904004284B2F75006B9FD2 /* tag_impl.cpp in Sources */,
 				9A904005284B2F75006B9FD2 /* utils.cpp in Sources */,
@@ -389,7 +389,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AEC326F26D099080078C8A4 /* header_frame.cpp in Sources */,
-				9AEC328C26D09FE80078C8A4 /* ca2_readers.cpp in Sources */,
 				9AEC326E26D099080078C8A4 /* globals.cpp in Sources */,
 				9AEC326726D099080078C8A4 /* tag_parse_v1.cpp in Sources */,
 				9AEC328226D099080078C8A4 /* tag_parse_lyrics3.cpp in Sources */,
@@ -417,6 +416,7 @@
 				9AEC327326D099080078C8A4 /* tag_find.cpp in Sources */,
 				9AEC325E26D099080078C8A4 /* io_decorators.cpp in Sources */,
 				9AEC327626D099080078C8A4 /* spec.cpp in Sources */,
+				9A908359299BE08800DAE51B /* _interface_readers.cpp in Sources */,
 				9AEC326626D099080078C8A4 /* readers.cpp in Sources */,
 				9AEC327C26D099080078C8A4 /* tag_impl.cpp in Sources */,
 				9AEC325F26D099080078C8A4 /* utils.cpp in Sources */,
@@ -537,6 +537,7 @@
 				SKIP_INSTALL = YES;
 				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SYSTEM_HEADER_SEARCH_PATHS = "$(WorkspaceDir)/source/port/include/operating-system/$(PLATFORM_MODIFIER)";
 				USER_HEADER_SEARCH_PATHS = (
 					.,
 					"$(WorkspaceDir)/source",
@@ -546,6 +547,7 @@
 					"$(WorkspaceDir)/operating-system",
 					"$(WorkspaceDir)/operating-system/operating-system-$(PLATFORM_MODIFIER)",
 					"$(WorkspaceDir)/operating-system/operating-system-$(PLATFORM_MODIFIER)/include",
+					"$(WorkspaceDir)/source/port/include/operating-system/$(PLATFORM_MODIFIER)",
 					"$(WorkspaceDir)/source/port/include",
 					"$(WorkspaceDir)/source/port",
 					"$(WorkspaceDir)/operating-system/third-$(PLATFORM_MODIFIER)/third/include/include",
@@ -642,6 +644,7 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
+				SYSTEM_HEADER_SEARCH_PATHS = "$(WorkspaceDir)/source/port/include/operating-system/$(PLATFORM_MODIFIER)";
 				USER_HEADER_SEARCH_PATHS = (
 					.,
 					"$(WorkspaceDir)/source",
@@ -651,6 +654,7 @@
 					"$(WorkspaceDir)/operating-system",
 					"$(WorkspaceDir)/operating-system/operating-system-$(PLATFORM_MODIFIER)",
 					"$(WorkspaceDir)/operating-system/operating-system-$(PLATFORM_MODIFIER)/include",
+					"$(WorkspaceDir)/source/port/include/operating-system/$(PLATFORM_MODIFIER)",
 					"$(WorkspaceDir)/source/port/include",
 					"$(WorkspaceDir)/source/port",
 					"$(WorkspaceDir)/operating-system/third-$(PLATFORM_MODIFIER)/third/include/include",
