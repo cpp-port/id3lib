@@ -1,4 +1,4 @@
-// -*- C++ -*-
+﻿// -*- C++ -*-
 /* $Id: globals.h,v 1.54 2003/02/21 03:47:41 slackorama Exp $
 
  * id3lib: a C++ library for creating and manipulating id3v1/v2 tags
@@ -33,6 +33,10 @@
 
 #ifndef _ID3LIB_GLOBALS_H_
 #define _ID3LIB_GLOBALS_H_
+
+
+
+#if 
 
 #include <stdlib.h>
 #include "id3/sized_types.h"
