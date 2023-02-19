@@ -36,7 +36,24 @@
 
 
 
-#if 
+#ifdef _output_type_static
+
+#define ID3LIB_LINKOPTION LINKOPTION_STATIC
+
+#else
+
+#ifdef _id3lib_project
+
+#define ID3LIB_LINKOPTION LINKOPTION_CREATE_DYNAMIC
+
+#else
+
+#define ID3LIB_LINKOPTION LINKOPTION_USE_DYNAMIC
+
+#endif
+
+#endif
+
 
 #include <stdlib.h>
 #include "id3/sized_types.h"
