@@ -71,7 +71,7 @@ endif()
 
 add_library(id3lib SHARED ${library_source})
 
-target_precompile_headers(id3lib PRIVATE framework.h)
+#target_precompile_headers(id3lib PRIVATE framework.h)
 
 set_target_properties(id3lib PROPERTIES LINKER_LANGUAGE CXX)
 
@@ -100,6 +100,9 @@ target_include_directories(id3lib PRIVATE $ENV{__sensitive}/sensitive/include)
 list(APPEND library_include_directories ${CMAKE_CURRENT_SOURCE_DIR}/../..)
 list(APPEND library_include_directories ${CMAKE_CURRENT_SOURCE_DIR}/..)
 list(APPEND library_include_directories ${CMAKE_CURRENT_SOURCE_DIR})
+list(APPEND library_include_directories ${CMAKE_CURRENT_SOURCE_DIR}/include)
+list(APPEND library_include_directories ${CMAKE_CURRENT_SOURCE_DIR}/../../_/${PROJECT_NAME})
+
 
 
 target_include_directories(${PROJECT_NAME} PRIVATE ${library_include_directories})
