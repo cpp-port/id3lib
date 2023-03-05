@@ -116,7 +116,7 @@
     <ClInclude Include="..\..\..\source\app\include\id3\writers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\operating-system\third-windows\third\include\id3\readers.h">
+    <ClInclude Include="..\..\..\operating_system\third-windows\third\include\id3\readers.h">
       <Filter>Header Files\include\id3</Filter>
     </ClInclude>
     <ClInclude Include="_interface_readers.h">
