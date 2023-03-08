@@ -151,9 +151,12 @@ void ID3_FieldImpl::FromFile(const char *info ///< Source filename
     uchar* buffer = new uchar[fileSize];
     if (buffer != NULL)
     {
-      ::fread(buffer, 1, fileSize, temp_file);
+      if(::fread(buffer, 1, fileSize, temp_file) == fileSize)
+      {
 
-      this->Set(buffer, fileSize);
+         this->Set(buffer, fileSize);
+
+      }
 
       delete [] buffer;
     }
