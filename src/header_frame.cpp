@@ -25,6 +25,13 @@
 // http://download.sourceforge.net/id3lib/
 #undef new
 
+
+
+#ifdef HAVE_CONFIG_H
+#include "config.h"
+#endif
+
+
 #include <memory.h>
 #include "header_frame.h"
 #include "id3/utils.h" // has <config.h> "id3/id3lib_streams.h" "id3/globals.h" "id3/id3lib_strings.h"
