@@ -539,6 +539,7 @@
 					"$(WorkspaceDir)/source/port/include/operating_system/$(PLATFORM_MODIFIER)",
 				);
 				USER_HEADER_SEARCH_PATHS = (
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/configuration/$(PROJECT_NAME)",
 					"$(PROJECT_DIR)/../../_/$(PROJECT_NAME)",
 					"$(PROJECT_DIR)/include",
 					.,
@@ -550,7 +551,7 @@
 					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)",
 					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/include",
 					"$(WorkspaceDir)/source/port/include/operating_system/$(PLATFORM_MODIFIER)",
-					"$(WorkspaceDir)/source/port/include/operating_system/$(PLATFORM_MODIFIER)",
+					"$(WorkspaceDir)/port/include",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/..",
 					"$(PROJECT_DIR)/../..",
@@ -645,6 +646,7 @@
 					"$(WorkspaceDir)/source/port/include/operating_system/$(PLATFORM_MODIFIER)",
 				);
 				USER_HEADER_SEARCH_PATHS = (
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/configuration/$(PROJECT_NAME)",
 					"$(PROJECT_DIR)/../../_/$(PROJECT_NAME)",
 					"$(PROJECT_DIR)/include",
 					.,
@@ -656,7 +658,7 @@
 					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)",
 					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/include",
 					"$(WorkspaceDir)/source/port/include/operating_system/$(PLATFORM_MODIFIER)",
-					"$(WorkspaceDir)/source/port/include/operating_system/$(PLATFORM_MODIFIER)",
+					"$(WorkspaceDir)/port/include",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/..",
 					"$(PROJECT_DIR)/../..",
