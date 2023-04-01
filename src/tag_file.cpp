@@ -48,7 +48,7 @@ using namespace dami;
 #if defined HAVE_SYS_STAT_H
 #  include <sys/stat.h>
 #endif
-#if defined _UWP
+#if defined UNIVERSAL_WINDOWS
 static int truncate(const char * path, size_t length)
 {
    return -1;
