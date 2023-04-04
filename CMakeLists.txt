@@ -72,7 +72,8 @@ add_library(${PROJECT_NAME} SHARED ${library_source})
 add_library(static_${PROJECT_NAME} STATIC ${library_source})
 
 
-#target_precompile_headers(id3lib PRIVATE framework.h)
+#target_precompile_headers(${PROJECT_NAME} PRIVATE framework.h)
+target_precompile_headers(static_${PROJECT_NAME} PRIVATE framework.h)
 
 
 set_target_properties(id3lib PROPERTIES LINKER_LANGUAGE CXX)
@@ -86,7 +87,8 @@ if (MSVC)
     target_link_libraries(id3lib PRIVATE ${library_references})
     target_link_libraries(id3lib PRIVATE ws2_32 winmm shlwapi)
 elseif(LINUX OR FREEBSD)
-    target_compile_options(id3lib PRIVATE -fpermissive)
+    target_compile_options(${PROJECT_NAME} PRIVATE -fpermissive)
+    target_compile_options(static_${PROJECT_NAME} PRIVATE -fpermissive)
     #target_link_options(id3lib PRIVATE -Wl,-rpath=$ORIGIN)
     target_link_libraries(id3lib PRIVATE pthread z)
     target_link_libraries(id3lib PRIVATE ${library_references})
