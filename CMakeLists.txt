@@ -68,10 +68,12 @@ if(WIN32)
 endif()
 
 
+add_library(${PROJECT_NAME} SHARED ${library_source})
+add_library(static_${PROJECT_NAME} STATIC ${library_source})
 
-add_library(id3lib SHARED ${library_source})
 
 #target_precompile_headers(id3lib PRIVATE framework.h)
+
 
 set_target_properties(id3lib PROPERTIES LINKER_LANGUAGE CXX)
 
@@ -106,6 +108,9 @@ list(APPEND library_include_directories ${CMAKE_CURRENT_SOURCE_DIR}/../../_/${PR
 
 
 target_include_directories(${PROJECT_NAME} PRIVATE ${library_include_directories})
+target_include_directories(static_${PROJECT_NAME} PRIVATE ${library_include_directories})
+
+
 target_include_directories(id3lib PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/src)
 
 
