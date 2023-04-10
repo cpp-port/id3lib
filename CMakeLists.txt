@@ -78,7 +78,9 @@ add_library(static_${PROJECT_NAME} STATIC ${library_source})
 
 set_target_properties(id3lib PROPERTIES LINKER_LANGUAGE CXX)
 
-target_compile_definitions(id3lib PRIVATE HAVE_CONFIG_H)
+target_compile_definitions(${PROJECT_NAME} PRIVATE HAVE_CONFIG_H)
+target_compile_definitions(static_${PROJECT_NAME} PRIVATE HAVE_CONFIG_H)
+
 
 if (MSVC)
     target_compile_options(id3lib PRIVATE "/MD$<$<CONFIG:Debug>:d>")
@@ -87,15 +89,19 @@ if (MSVC)
     target_link_libraries(id3lib PRIVATE ${library_references})
     target_link_libraries(id3lib PRIVATE ws2_32 winmm shlwapi)
 elseif(LINUX OR FREEBSD)
+
+
     target_compile_options(${PROJECT_NAME} PRIVATE -fpermissive)
     target_compile_options(static_${PROJECT_NAME} PRIVATE -fpermissive)
     target_compile_definitions(static_${PROJECT_NAME} PRIVATE CUBE)
+
 
     #target_link_options(id3lib PRIVATE -Wl,-rpath=$ORIGIN)
     target_link_libraries(id3lib PRIVATE pthread z)
     target_link_libraries(id3lib PRIVATE ${library_references})
     target_link_options(${PROJECT_NAME} PRIVATE -Wl,-z,defs)
     target_link_options(static_${PROJECT_NAME} PRIVATE --whole-archive)
+
 
 endif()
 
