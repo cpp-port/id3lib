@@ -97,6 +97,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A03B8442A25C24700A0E33E /* debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = debug.xcconfig; path = src/debug.xcconfig; sourceTree = SOURCE_ROOT; };
+		9A03B8452A25C24700A0E33E /* release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = release.xcconfig; sourceTree = SOURCE_ROOT; };
 		9A90400B284B2F75006B9FD2 /* libios_id3lib.a */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libios_id3lib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A908358299BE08800DAE51B /* _interface_readers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = _interface_readers.cpp; sourceTree = SOURCE_ROOT; };
 		9AEC321826D098A00078C8A4 /* libid3lib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libid3lib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -181,6 +183,7 @@
 		9AEC322A26D099070078C8A4 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				9A03B8442A25C24700A0E33E /* debug.xcconfig */,
 				9AEC324326D099080078C8A4 /* field_binary.cpp */,
 				9AEC324E26D099080078C8A4 /* field_def.h */,
 				9AEC323F26D099080078C8A4 /* field_impl.h */,
@@ -212,6 +215,7 @@
 				9AEC323326D099080078C8A4 /* mp3_header.h */,
 				9AEC325226D099080078C8A4 /* mp3_parse.cpp */,
 				9AEC323826D099080078C8A4 /* readers.cpp */,
+				9A03B8452A25C24700A0E33E /* release.xcconfig */,
 				9AEC324926D099080078C8A4 /* spec.cpp */,
 				9AEC324726D099080078C8A4 /* spec.h */,
 				9AEC323726D099080078C8A4 /* tag_file.cpp */,
@@ -450,6 +454,7 @@
 		};
 		9AEC321F26D098A00078C8A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A03B8442A25C24700A0E33E /* debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
@@ -565,6 +570,7 @@
 		};
 		9AEC322026D098A00078C8A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A03B8452A25C24700A0E33E /* release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
