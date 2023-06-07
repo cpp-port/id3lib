@@ -1,4 +1,4 @@
-﻿// Changed to use _interface_file by camilo on 2023-01-06 20:47 <3ThomasBorregaardSørensen!!
+// Changed to use _interface_file by camilo on 2023-01-06 20:47 <3ThomasBorregaardSorensen!!
 //#include "framework.h"
 //#include "acme/_start.h"
 //#include "acme/_.h"
