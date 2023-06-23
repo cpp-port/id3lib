@@ -49,9 +49,59 @@ using namespace dami;
 #  include <sys/stat.h>
 #endif
 #if defined UNIVERSAL_WINDOWS
+#  include <windows.h>
+wchar_t *
+fromUTF8(
+    const char * src,
+    size_t src_length,  /* = 0 */
+    size_t * out_length  /* = NULL */
+)
+{
+   if (!src)
+   {
+      return NULL;
+   }
+
+   if (src_length == 0) { src_length = strlen(src); }
+   int length = MultiByteToWideChar(CP_UTF8, 0, src, src_length, 0, 0);
+   wchar_t * output_buffer = (wchar_t *)malloc((length + 1) * sizeof(wchar_t));
+   if (output_buffer) {
+      MultiByteToWideChar(CP_UTF8, 0, src, src_length, output_buffer, length);
+      output_buffer[length] = L'\0';
+   }
+   if (out_length) { *out_length = length; }
+   return output_buffer;
+}
+
 static int truncate(const char * path, size_t length)
 {
-   return -1;
+   int result = -1;
+   HANDLE fh;
+   size_t out_len=0;
+   auto wpath = fromUTF8(path, strlen(path), &out_len);
+
+   if ((::INT_PTR)wpath < 1024)
+   {
+
+      return -1;
+   }
+
+   fh = ::CreateFile2(wpath,
+                     GENERIC_WRITE | GENERIC_READ,
+                     0,
+                     OPEN_EXISTING,
+                     NULL);
+
+   ::free(wpath);
+   if (INVALID_HANDLE_VALUE != fh)
+   {
+      SetFilePointer(fh, length, NULL, FILE_BEGIN);
+      SetEndOfFile(fh);
+      CloseHandle(fh);
+      result = 0;
+   }
+
+   return result;
 }
 #elif defined _WIN32 && (!defined(WINCE))
 #  include <windows.h>
