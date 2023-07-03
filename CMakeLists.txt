@@ -88,7 +88,7 @@ if (MSVC)
     target_link_options(id3lib PRIVATE "/SUBSYSTEM:WINDOWS")
     target_link_libraries(id3lib PRIVATE ${library_references})
     target_link_libraries(id3lib PRIVATE ws2_32 winmm shlwapi)
-elseif(LINUX OR FREEBSD)
+elseif(${LINUX} OR ${FREEBSD})
 
 
     target_compile_options(${PROJECT_NAME} PRIVATE -fpermissive)
