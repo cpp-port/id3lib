@@ -108,14 +108,11 @@ endif()
 
 
 
-target_include_directories(id3lib PRIVATE .)
-target_include_directories(id3lib PRIVATE $ENV{HOME}/sensitive/sensitive/include)
-target_include_directories(id3lib PRIVATE $ENV{__sensitive}/sensitive/include)
 list(APPEND library_include_directories ${CMAKE_CURRENT_SOURCE_DIR}/../..)
 list(APPEND library_include_directories ${CMAKE_CURRENT_SOURCE_DIR}/..)
 list(APPEND library_include_directories ${CMAKE_CURRENT_SOURCE_DIR})
 list(APPEND library_include_directories ${CMAKE_CURRENT_SOURCE_DIR}/include)
-list(APPEND library_include_directories ${CMAKE_CURRENT_SOURCE_DIR}/../../_/${PROJECT_NAME})
+list(APPEND library_include_directories ${CMAKE_CURRENT_SOURCE_DIR}/../../../operating_system/operating_system-${PLATFORM_NAME}/configuration/${PROJECT_NAME})
 
 
 
