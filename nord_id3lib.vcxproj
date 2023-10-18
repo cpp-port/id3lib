@@ -62,16 +62,16 @@
   <ImportGroup Label="ExtensionSettings" />
   <ImportGroup Label="Shared" />
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
-    <Import Project="..\..\..\operating_system\operating_system-android\Common.props" />
+    <Import Project="..\..\..\operating_system\operating_system-android\port.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
-    <Import Project="..\..\..\operating_system\operating_system-android\Common.props" />
+    <Import Project="..\..\..\operating_system\operating_system-android\port.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
-    <Import Project="..\..\..\operating_system\operating_system-android\Common.props" />
+    <Import Project="..\..\..\operating_system\operating_system-android\port.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
-    <Import Project="..\..\..\operating_system\operating_system-android\Common.props" />
+    <Import Project="..\..\..\operating_system\operating_system-android\port.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
@@ -190,20 +190,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ca2_readers.cpp">
-      <CppLanguageStandard Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
-      </CppLanguageStandard>
-      <CppLanguageStandard Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
-      </CppLanguageStandard>
-      <CppLanguageStandard Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
-      </CppLanguageStandard>
-      <CppLanguageStandard Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
-      </CppLanguageStandard>
-      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">-std=c++20 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">-std=c++20 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">-std=c++20 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x86'">-std=c++20 %(AdditionalOptions)</AdditionalOptions>
-    </ClCompile>
     <ClCompile Include="src\field.cpp" />
     <ClCompile Include="src\field_binary.cpp" />
     <ClCompile Include="src\field_integer.cpp" />
