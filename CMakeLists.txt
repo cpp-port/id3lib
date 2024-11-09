@@ -84,7 +84,7 @@ if (MSVC)
     target_link_options(${PROJECT_NAME} PRIVATE "/DEFAULTLIB:msvcrt$<$<CONFIG:Debug>:d>")
     target_link_options(${PROJECT_NAME} PRIVATE "/SUBSYSTEM:WINDOWS")
     target_link_libraries(${PROJECT_NAME} PRIVATE ${library_references})
-    target_link_libraries(${PROJECT_NAME} PRIVATE ws2_32 winmm shlwapi)
+    target_link_libraries(${PROJECT_NAME} PRIVATE ws2_32 winmm shlwapi zlib)
 elseif(${LINUX} OR ${__BSD__})
 
 
@@ -120,7 +120,7 @@ target_include_directories(static_${PROJECT_NAME} PRIVATE ${library_include_dire
 target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/src)
 
 
-target_compile_definitions(${PROJECT_NAME} PRIVATE _${PROJECT_NAME}_projeeeeect)
+target_compile_definitions(${PROJECT_NAME} PRIVATE _${PROJECT_NAME}_project)
 
 
 
