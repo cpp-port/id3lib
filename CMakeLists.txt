@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 project(id3lib CXX)
 
 
+message(STATUS "Project id3lib")
 
 
 list(APPEND library_source
@@ -124,3 +125,6 @@ target_compile_definitions(${PROJECT_NAME} PRIVATE _${PROJECT_NAME}_project)
 
 
 
+
+
+message(STATUS "Finished project id3lib")
