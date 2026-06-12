@@ -529,8 +529,7 @@
       <DocumentLibraryDependencies>false</DocumentLibraryDependencies>
     </Xdcmake>
     <PreBuildEvent>
-      <Command>
-      </Command>
+      <Command> </Command>
     </PreBuildEvent>
     <ResourceCompile>
       <AdditionalIncludeDirectories>$(SolutionDir)../../..</AdditionalIncludeDirectories>
@@ -774,8 +773,7 @@
       <DocumentLibraryDependencies>false</DocumentLibraryDependencies>
     </Xdcmake>
     <PreBuildEvent>
-      <Command>
-      </Command>
+      <Command> </Command>
     </PreBuildEvent>
     <ResourceCompile>
       <AdditionalIncludeDirectories>$(SolutionDir)../../..</AdditionalIncludeDirectories>
@@ -985,8 +983,7 @@
       </Inputs>
     </CustomBuildStep>
     <PreBuildEvent>
-      <Command>
-      </Command>
+      <Command> </Command>
     </PreBuildEvent>
     <ResourceCompile>
       <AdditionalIncludeDirectories>$(SolutionDir)../../..</AdditionalIncludeDirectories>
@@ -1061,8 +1058,7 @@
       </Inputs>
     </CustomBuildStep>
     <PreBuildEvent>
-      <Command>
-      </Command>
+      <Command> </Command>
     </PreBuildEvent>
     <ResourceCompile>
       <AdditionalIncludeDirectories>$(SolutionDir)../../..</AdditionalIncludeDirectories>
@@ -1443,8 +1439,7 @@
       </Inputs>
     </CustomBuildStep>
     <PreBuildEvent>
-      <Command>
-      </Command>
+      <Command> </Command>
     </PreBuildEvent>
     <ResourceCompile>
       <AdditionalIncludeDirectories>$(SolutionDir)../../..</AdditionalIncludeDirectories>
@@ -1525,8 +1520,7 @@
       </Inputs>
     </CustomBuildStep>
     <PreBuildEvent>
-      <Command>
-      </Command>
+      <Command> </Command>
     </PreBuildEvent>
     <ResourceCompile>
       <AdditionalIncludeDirectories>$(SolutionDir)../../..</AdditionalIncludeDirectories>
