@@ -111,7 +111,7 @@ const unicode_t* ID3_FieldImpl::GetRawUnicodeText() const
 {
   const unicode_t* text = NULL;
   if (this->GetType() == ID3FTY_TEXTSTRING &&
-      this->GetEncoding() == ID3TE_UNICODE)
+      ID3TE_IS_DOUBLE_BYTE_ENC(this->GetEncoding()))
   {
     text = (unicode_t *)_text.data();
   }
@@ -122,7 +122,7 @@ const unicode_t* ID3_FieldImpl::GetRawUnicodeTextItem(size_t index) const
 {
   const unicode_t* text = NULL;
   if (this->GetType() == ID3FTY_TEXTSTRING &&
-      this->GetEncoding() == ID3TE_UNICODE &&
+      ID3TE_IS_DOUBLE_BYTE_ENC(this->GetEncoding()) &&
       index < this->GetNumTextItems())
   {
     String unicode = _text + '\0' + '\0';

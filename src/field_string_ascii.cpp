@@ -88,7 +88,7 @@ size_t ID3_FieldImpl::Get(char* buffer, size_t maxLength) const
 {
   size_t size = 0;
   if (this->GetType() == ID3FTY_TEXTSTRING &&
-      this->GetEncoding() == ID3TE_ASCII &&
+      ID3TE_IS_SINGLE_BYTE_ENC(this->GetEncoding()) &&
       buffer != NULL && maxLength > 0)
   {
     String data = this->GetText();
@@ -107,7 +107,7 @@ size_t ID3_FieldImpl::Get(char* buf, size_t maxLen, size_t index) const
 {
   size_t size = 0;
   if (this->GetType() == ID3FTY_TEXTSTRING &&
-      this->GetEncoding() == ID3TE_ASCII &&
+      ID3TE_IS_SINGLE_BYTE_ENC(this->GetEncoding()) &&
       buf != NULL && maxLen > 0)
   {
     String data = this->GetTextItem(index);
@@ -135,7 +135,7 @@ String ID3_FieldImpl::GetTextItem(size_t index) const
 {
   String data;
   if (this->GetType() == ID3FTY_TEXTSTRING &&
-      this->GetEncoding() == ID3TE_ASCII)
+      ID3TE_IS_SINGLE_BYTE_ENC(this->GetEncoding()))
   {
     const char* raw = this->GetRawTextItem(index);
     if (raw != NULL)
@@ -262,7 +262,7 @@ const char* ID3_FieldImpl::GetRawText() const
 {
   const char* text = NULL;
   if (this->GetType() == ID3FTY_TEXTSTRING &&
-      this->GetEncoding() == ID3TE_ASCII)
+      ID3TE_IS_SINGLE_BYTE_ENC(this->GetEncoding()))
   {
     text = _text.c_str();
   }
@@ -273,7 +273,7 @@ const char* ID3_FieldImpl::GetRawTextItem(size_t index) const
 {
   const char* text = NULL;
   if (this->GetType() == ID3FTY_TEXTSTRING &&
-      this->GetEncoding() == ID3TE_ASCII &&
+      ID3TE_IS_SINGLE_BYTE_ENC(this->GetEncoding()) &&
       index < this->GetNumTextItems())
   {
     text = _text.c_str();
@@ -289,7 +289,7 @@ namespace
 {
   String readEncodedText(ID3_Reader& reader, size_t len, ID3_TextEnc enc)
   {
-    if (enc == ID3TE_ASCII)
+    if (ID3TE_IS_SINGLE_BYTE_ENC(enc))
     {
       return io::readText(reader, len);
     }
@@ -298,7 +298,7 @@ namespace
 
   String readEncodedString(ID3_Reader& reader, ID3_TextEnc enc)
   {
-    if (enc == ID3TE_ASCII)
+    if (ID3TE_IS_SINGLE_BYTE_ENC(enc))
     {
       return io::readString(reader);
     }
@@ -307,7 +307,7 @@ namespace
 
   size_t writeEncodedText(ID3_Writer& writer, String data, ID3_TextEnc enc)
   {
-    if (enc == ID3TE_ASCII)
+    if (ID3TE_IS_SINGLE_BYTE_ENC(enc))
     {
       return io::writeText(writer, data);
     }
@@ -316,7 +316,7 @@ namespace
 
   size_t writeEncodedString(ID3_Writer& writer, String data, ID3_TextEnc enc)
   {
-    if (enc == ID3TE_ASCII)
+    if (ID3TE_IS_SINGLE_BYTE_ENC(enc))
     {
       return io::writeString(writer, data);
     }
