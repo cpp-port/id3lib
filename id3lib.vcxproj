@@ -460,7 +460,7 @@
       <SmallerTypeCheck>false</SmallerTypeCheck>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <CompileAsManaged>false</CompileAsManaged>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
       <CompileAsWinRT>false</CompileAsWinRT>
       <SDLCheck>true</SDLCheck>
       <FloatingPointExceptions>true</FloatingPointExceptions>
@@ -471,7 +471,7 @@
       <CreateHotpatchableImage>false</CreateHotpatchableImage>
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
       <UseFullPaths>true</UseFullPaths>
-      <PrecompiledHeaderOutputFile>$(IntDir)framework.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)platform.pch</PrecompiledHeaderOutputFile>
       <Optimization>Disabled</Optimization>
       <AssemblerListingLocation>$(IntDir)%(RelativeDir)</AssemblerListingLocation>
       <SupportJustMyCode>true</SupportJustMyCode>
@@ -532,7 +532,7 @@
       <SmallerTypeCheck>false</SmallerTypeCheck>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <CompileAsManaged>false</CompileAsManaged>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
       <CompileAsWinRT>false</CompileAsWinRT>
       <SDLCheck>true</SDLCheck>
       <FloatingPointExceptions>true</FloatingPointExceptions>
@@ -543,7 +543,7 @@
       <CreateHotpatchableImage>false</CreateHotpatchableImage>
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
       <UseFullPaths>true</UseFullPaths>
-      <PrecompiledHeaderOutputFile>$(IntDir)framework.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)platform.pch</PrecompiledHeaderOutputFile>
       <Optimization>Disabled</Optimization>
       <AssemblerListingLocation>$(IntDir)%(RelativeDir)</AssemblerListingLocation>
       <SupportJustMyCode>true</SupportJustMyCode>
@@ -605,7 +605,7 @@
       <SmallerTypeCheck>false</SmallerTypeCheck>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <CompileAsManaged>false</CompileAsManaged>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
       <CompileAsWinRT>false</CompileAsWinRT>
       <SDLCheck>true</SDLCheck>
       <FloatingPointExceptions>true</FloatingPointExceptions>
@@ -616,7 +616,7 @@
       <CreateHotpatchableImage>false</CreateHotpatchableImage>
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
       <UseFullPaths>true</UseFullPaths>
-      <PrecompiledHeaderOutputFile>$(IntDir)framework.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)platform.pch</PrecompiledHeaderOutputFile>
       <Optimization>Disabled</Optimization>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
       <AssemblerListingLocation>$(IntDir)%(RelativeDir)</AssemblerListingLocation>
@@ -685,7 +685,7 @@
       <SmallerTypeCheck>false</SmallerTypeCheck>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <CompileAsManaged>false</CompileAsManaged>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
       <CompileAsWinRT>false</CompileAsWinRT>
       <SDLCheck>true</SDLCheck>
       <FloatingPointExceptions>true</FloatingPointExceptions>
@@ -696,7 +696,7 @@
       <CreateHotpatchableImage>false</CreateHotpatchableImage>
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
       <UseFullPaths>true</UseFullPaths>
-      <PrecompiledHeaderOutputFile>$(IntDir)framework.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)platform.pch</PrecompiledHeaderOutputFile>
       <Optimization>Disabled</Optimization>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
       <AssemblerListingLocation>$(IntDir)%(RelativeDir)</AssemblerListingLocation>
@@ -768,7 +768,7 @@
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <CompileAsManaged>false</CompileAsManaged>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
       <CompileAsWinRT>false</CompileAsWinRT>
       <SDLCheck>
       </SDLCheck>
@@ -781,7 +781,7 @@
       <WholeProgramOptimization>true</WholeProgramOptimization>
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
       <UseFullPaths>true</UseFullPaths>
-      <PrecompiledHeaderOutputFile>$(IntDir)framework.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)platform.pch</PrecompiledHeaderOutputFile>
       <AssemblerListingLocation>$(IntDir)%(RelativeDir)</AssemblerListingLocation>
       <SupportJustMyCode>true</SupportJustMyCode>
       <OmitFramePointers>true</OmitFramePointers>
@@ -847,7 +847,7 @@
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <CompileAsManaged>false</CompileAsManaged>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
       <CompileAsWinRT>false</CompileAsWinRT>
       <SDLCheck>
       </SDLCheck>
@@ -859,7 +859,7 @@
       <CreateHotpatchableImage>false</CreateHotpatchableImage>
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
       <UseFullPaths>true</UseFullPaths>
-      <PrecompiledHeaderOutputFile>$(IntDir)framework.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)platform.pch</PrecompiledHeaderOutputFile>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
       <AssemblerListingLocation>$(IntDir)%(RelativeDir)</AssemblerListingLocation>
       <SupportJustMyCode>true</SupportJustMyCode>
@@ -927,7 +927,7 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <SmallerTypeCheck>false</SmallerTypeCheck>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
       <SDLCheck>true</SDLCheck>
       <FloatingPointModel>Precise</FloatingPointModel>
       <FloatingPointExceptions>true</FloatingPointExceptions>
@@ -938,7 +938,7 @@
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
       <UseFullPaths>true</UseFullPaths>
       <DisableSpecificWarnings>4244;4267;4018</DisableSpecificWarnings>
-      <PrecompiledHeaderOutputFile>$(IntDir)framework.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)platform.pch</PrecompiledHeaderOutputFile>
       <OmitFramePointers>false</OmitFramePointers>
       <Optimization>Disabled</Optimization>
       <AssemblerListingLocation>$(IntDir)%(RelativeDir)</AssemblerListingLocation>
@@ -995,7 +995,7 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <SmallerTypeCheck>false</SmallerTypeCheck>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
       <SDLCheck>true</SDLCheck>
       <FloatingPointModel>Precise</FloatingPointModel>
       <FloatingPointExceptions>true</FloatingPointExceptions>
@@ -1006,7 +1006,7 @@
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
       <UseFullPaths>true</UseFullPaths>
       <DisableSpecificWarnings>4244;4267;4018</DisableSpecificWarnings>
-      <PrecompiledHeaderOutputFile>$(IntDir)framework.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)platform.pch</PrecompiledHeaderOutputFile>
       <OmitFramePointers>false</OmitFramePointers>
       <Optimization>Disabled</Optimization>
       <AssemblerListingLocation>$(IntDir)%(RelativeDir)</AssemblerListingLocation>
@@ -1063,7 +1063,7 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <SmallerTypeCheck>false</SmallerTypeCheck>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
       <SDLCheck>true</SDLCheck>
       <FloatingPointModel>Precise</FloatingPointModel>
       <FloatingPointExceptions>true</FloatingPointExceptions>
@@ -1074,7 +1074,7 @@
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
       <UseFullPaths>true</UseFullPaths>
       <DisableSpecificWarnings>4244;4267;4018</DisableSpecificWarnings>
-      <PrecompiledHeaderOutputFile>$(IntDir)framework.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)platform.pch</PrecompiledHeaderOutputFile>
       <OmitFramePointers>false</OmitFramePointers>
       <Optimization>Disabled</Optimization>
       <AssemblerListingLocation>$(IntDir)%(RelativeDir)</AssemblerListingLocation>
@@ -1130,7 +1130,7 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <SmallerTypeCheck>false</SmallerTypeCheck>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
       <SDLCheck>true</SDLCheck>
       <FloatingPointModel>Precise</FloatingPointModel>
       <FloatingPointExceptions>true</FloatingPointExceptions>
@@ -1141,7 +1141,7 @@
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
       <UseFullPaths>true</UseFullPaths>
       <DisableSpecificWarnings>4244;4267;4018</DisableSpecificWarnings>
-      <PrecompiledHeaderOutputFile>$(IntDir)framework.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)platform.pch</PrecompiledHeaderOutputFile>
       <OmitFramePointers>false</OmitFramePointers>
       <Optimization>Disabled</Optimization>
       <AssemblerListingLocation>$(IntDir)%(RelativeDir)</AssemblerListingLocation>
@@ -1198,7 +1198,7 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <SmallerTypeCheck>false</SmallerTypeCheck>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
       <SDLCheck>true</SDLCheck>
       <FloatingPointModel>Precise</FloatingPointModel>
       <FloatingPointExceptions>true</FloatingPointExceptions>
@@ -1209,7 +1209,7 @@
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
       <UseFullPaths>true</UseFullPaths>
       <DisableSpecificWarnings>4244;4267;4018</DisableSpecificWarnings>
-      <PrecompiledHeaderOutputFile>$(IntDir)framework.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)platform.pch</PrecompiledHeaderOutputFile>
       <OmitFramePointers>false</OmitFramePointers>
       <Optimization>Disabled</Optimization>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
@@ -1274,7 +1274,7 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <SmallerTypeCheck>false</SmallerTypeCheck>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
       <SDLCheck>true</SDLCheck>
       <FloatingPointModel>Precise</FloatingPointModel>
       <FloatingPointExceptions>true</FloatingPointExceptions>
@@ -1285,7 +1285,7 @@
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
       <UseFullPaths>true</UseFullPaths>
       <DisableSpecificWarnings>4244;4267;4018</DisableSpecificWarnings>
-      <PrecompiledHeaderOutputFile>$(IntDir)framework.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)platform.pch</PrecompiledHeaderOutputFile>
       <OmitFramePointers>false</OmitFramePointers>
       <Optimization>Disabled</Optimization>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
@@ -1350,7 +1350,7 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <SmallerTypeCheck>false</SmallerTypeCheck>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
       <SDLCheck>true</SDLCheck>
       <FloatingPointModel>Precise</FloatingPointModel>
       <FloatingPointExceptions>true</FloatingPointExceptions>
@@ -1361,7 +1361,7 @@
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
       <UseFullPaths>true</UseFullPaths>
       <DisableSpecificWarnings>4244;4267;4018</DisableSpecificWarnings>
-      <PrecompiledHeaderOutputFile>$(IntDir)framework.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)platform.pch</PrecompiledHeaderOutputFile>
       <OmitFramePointers>false</OmitFramePointers>
       <Optimization>Disabled</Optimization>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
@@ -1426,7 +1426,7 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <SmallerTypeCheck>false</SmallerTypeCheck>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
       <SDLCheck>true</SDLCheck>
       <FloatingPointModel>Precise</FloatingPointModel>
       <FloatingPointExceptions>true</FloatingPointExceptions>
@@ -1437,7 +1437,7 @@
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
       <UseFullPaths>true</UseFullPaths>
       <DisableSpecificWarnings>4244;4267;4018</DisableSpecificWarnings>
-      <PrecompiledHeaderOutputFile>$(IntDir)framework.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)platform.pch</PrecompiledHeaderOutputFile>
       <OmitFramePointers>false</OmitFramePointers>
       <Optimization>Disabled</Optimization>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
@@ -1506,7 +1506,7 @@
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <CompileAsManaged>false</CompileAsManaged>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
       <CompileAsWinRT>false</CompileAsWinRT>
       <OmitFramePointers>true</OmitFramePointers>
       <FloatingPointModel>Precise</FloatingPointModel>
@@ -1520,7 +1520,7 @@
       </SDLCheck>
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
       <UseFullPaths>true</UseFullPaths>
-      <PrecompiledHeaderOutputFile>$(IntDir)framework.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)platform.pch</PrecompiledHeaderOutputFile>
       <DisableSpecificWarnings>4244;4267;4018</DisableSpecificWarnings>
       <AssemblerListingLocation>$(IntDir)%(RelativeDir)</AssemblerListingLocation>
       <SupportJustMyCode>true</SupportJustMyCode>
@@ -1580,7 +1580,7 @@
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <CompileAsManaged>false</CompileAsManaged>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
       <CompileAsWinRT>false</CompileAsWinRT>
       <OmitFramePointers>true</OmitFramePointers>
       <FloatingPointModel>Precise</FloatingPointModel>
@@ -1594,7 +1594,7 @@
       </SDLCheck>
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
       <UseFullPaths>true</UseFullPaths>
-      <PrecompiledHeaderOutputFile>$(IntDir)framework.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)platform.pch</PrecompiledHeaderOutputFile>
       <DisableSpecificWarnings>4244;4267;4018</DisableSpecificWarnings>
       <AssemblerListingLocation>$(IntDir)%(RelativeDir)</AssemblerListingLocation>
       <SupportJustMyCode>true</SupportJustMyCode>
@@ -1655,7 +1655,7 @@
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <CompileAsManaged>false</CompileAsManaged>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
       <CompileAsWinRT>false</CompileAsWinRT>
       <OmitFramePointers>false</OmitFramePointers>
       <FloatingPointModel>Precise</FloatingPointModel>
@@ -1669,7 +1669,7 @@
       </SDLCheck>
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
       <UseFullPaths>true</UseFullPaths>
-      <PrecompiledHeaderOutputFile>$(IntDir)framework.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)platform.pch</PrecompiledHeaderOutputFile>
       <DisableSpecificWarnings>4244;4267;4018</DisableSpecificWarnings>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
       <AssemblerListingLocation>$(IntDir)%(RelativeDir)</AssemblerListingLocation>
@@ -1736,7 +1736,7 @@
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <CompileAsManaged>false</CompileAsManaged>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
       <CompileAsWinRT>false</CompileAsWinRT>
       <OmitFramePointers>false</OmitFramePointers>
       <FloatingPointModel>Precise</FloatingPointModel>
@@ -1750,7 +1750,7 @@
       </SDLCheck>
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
       <UseFullPaths>true</UseFullPaths>
-      <PrecompiledHeaderOutputFile>$(IntDir)framework.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)platform.pch</PrecompiledHeaderOutputFile>
       <DisableSpecificWarnings>4244;4267;4018</DisableSpecificWarnings>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
       <AssemblerListingLocation>$(IntDir)%(RelativeDir)</AssemblerListingLocation>

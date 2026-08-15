@@ -391,8 +391,8 @@
       <CompileAsWinRT>false</CompileAsWinRT>
       <PreprocessorDefinitions>_UWP;WIN32;ID3LIB_LINKOPTION=2;_CRT_SECURE_NO_WARNINGS;HAVE_CONFIG_H;ID3_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile>$(IntDir)framework.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)platform.pch</PrecompiledHeaderOutputFile>
       <AdditionalOptions>/Zc:twoPhase- /bigobj </AdditionalOptions>
       <CompileAsManaged>false</CompileAsManaged>
       <ExceptionHandling>Async</ExceptionHandling>
@@ -419,8 +419,8 @@
       <CompileAsWinRT>false</CompileAsWinRT>
       <PreprocessorDefinitions>_UWP;WIN32;ID3LIB_LINKOPTION=2;_CRT_SECURE_NO_WARNINGS;HAVE_CONFIG_H;ID3_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile>$(IntDir)framework.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)platform.pch</PrecompiledHeaderOutputFile>
       <AdditionalOptions>/Zc:twoPhase- /bigobj </AdditionalOptions>
       <CompileAsManaged>false</CompileAsManaged>
       <ExceptionHandling>Async</ExceptionHandling>
@@ -448,8 +448,8 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <CompileAsWinRT>false</CompileAsWinRT>
       <PreprocessorDefinitions>_UWP;WIN32;ID3LIB_LINKOPTION=2;_CRT_SECURE_NO_WARNINGS;HAVE_CONFIG_H;ID3_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile>$(IntDir)framework.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)platform.pch</PrecompiledHeaderOutputFile>
       <AdditionalOptions>/Zc:twoPhase- /bigobj </AdditionalOptions>
       <ExceptionHandling>Async</ExceptionHandling>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
@@ -475,8 +475,8 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <CompileAsWinRT>false</CompileAsWinRT>
       <PreprocessorDefinitions>_UWP;WIN32;ID3LIB_LINKOPTION=2;_CRT_SECURE_NO_WARNINGS;HAVE_CONFIG_H;ID3_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile>$(IntDir)framework.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)platform.pch</PrecompiledHeaderOutputFile>
       <AdditionalOptions>/Zc:twoPhase- /bigobj </AdditionalOptions>
       <ExceptionHandling>Async</ExceptionHandling>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
@@ -527,8 +527,8 @@
       <CompileAsWinRT>false</CompileAsWinRT>
       <CompileAsManaged>false</CompileAsManaged>
       <PreprocessorDefinitions>_UWP;WIN32;ID3LIB_LINKOPTION=2;_CRT_SECURE_NO_WARNINGS;HAVE_CONFIG_H;ID3_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile>$(IntDir)framework.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)platform.pch</PrecompiledHeaderOutputFile>
       <AdditionalOptions>/Zc:twoPhase- /bigobj </AdditionalOptions>
       <ExceptionHandling>Async</ExceptionHandling>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
@@ -554,8 +554,8 @@
       <CompileAsWinRT>false</CompileAsWinRT>
       <CompileAsManaged>false</CompileAsManaged>
       <PreprocessorDefinitions>_UWP;WIN32;ID3LIB_LINKOPTION=2;_CRT_SECURE_NO_WARNINGS;HAVE_CONFIG_H;ID3_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile>$(IntDir)framework.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)platform.pch</PrecompiledHeaderOutputFile>
       <AdditionalOptions>/Zc:twoPhase- /bigobj </AdditionalOptions>
       <ExceptionHandling>Async</ExceptionHandling>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
@@ -581,8 +581,8 @@
       <CompileAsWinRT>false</CompileAsWinRT>
       <CompileAsManaged>false</CompileAsManaged>
       <PreprocessorDefinitions>_UWP;WIN32;ID3LIB_LINKOPTION=2;_CRT_SECURE_NO_WARNINGS;HAVE_CONFIG_H;ID3_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile>$(IntDir)framework.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)platform.pch</PrecompiledHeaderOutputFile>
       <AdditionalOptions>/Zc:twoPhase- /bigobj </AdditionalOptions>
       <ExceptionHandling>Async</ExceptionHandling>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
@@ -610,8 +610,8 @@
       <CompileAsWinRT>false</CompileAsWinRT>
       <CompileAsManaged>false</CompileAsManaged>
       <PreprocessorDefinitions>_UWP;WIN32;ID3LIB_LINKOPTION=2;_CRT_SECURE_NO_WARNINGS;HAVE_CONFIG_H;ID3_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile>$(IntDir)framework.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)platform.pch</PrecompiledHeaderOutputFile>
       <AdditionalOptions>/Zc:twoPhase- /bigobj </AdditionalOptions>
       <ExceptionHandling>Async</ExceptionHandling>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
@@ -638,8 +638,8 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <CompileAsWinRT>false</CompileAsWinRT>
       <PreprocessorDefinitions>_UWP;WIN32;ID3LIB_LINKOPTION=2;_CRT_SECURE_NO_WARNINGS;HAVE_CONFIG_H;ID3_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile>$(IntDir)framework.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)platform.pch</PrecompiledHeaderOutputFile>
       <AdditionalOptions>/Zc:twoPhase- /bigobj </AdditionalOptions>
       <ExceptionHandling>Async</ExceptionHandling>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
@@ -665,8 +665,8 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <CompileAsWinRT>false</CompileAsWinRT>
       <PreprocessorDefinitions>_UWP;WIN32;ID3LIB_LINKOPTION=2;_CRT_SECURE_NO_WARNINGS;HAVE_CONFIG_H;ID3_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile>$(IntDir)framework.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)platform.pch</PrecompiledHeaderOutputFile>
       <AdditionalOptions>/Zc:twoPhase- /bigobj </AdditionalOptions>
       <ExceptionHandling>Async</ExceptionHandling>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
@@ -692,8 +692,8 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <CompileAsWinRT>false</CompileAsWinRT>
       <PreprocessorDefinitions>_UWP;WIN32;ID3LIB_LINKOPTION=2;_CRT_SECURE_NO_WARNINGS;HAVE_CONFIG_H;ID3_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile>$(IntDir)framework.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)platform.pch</PrecompiledHeaderOutputFile>
       <AdditionalOptions>/Zc:twoPhase- /bigobj </AdditionalOptions>
       <ExceptionHandling>Async</ExceptionHandling>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
@@ -721,8 +721,8 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <CompileAsWinRT>false</CompileAsWinRT>
       <PreprocessorDefinitions>_UWP;WIN32;ID3LIB_LINKOPTION=2;_CRT_SECURE_NO_WARNINGS;HAVE_CONFIG_H;ID3_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile>$(IntDir)framework.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)platform.pch</PrecompiledHeaderOutputFile>
       <AdditionalOptions>/Zc:twoPhase- /bigobj </AdditionalOptions>
       <ExceptionHandling>Async</ExceptionHandling>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
@@ -751,8 +751,8 @@
       <CompileAsWinRT>false</CompileAsWinRT>
       <CompileAsManaged>false</CompileAsManaged>
       <PreprocessorDefinitions>_UWP;WIN32;ID3LIB_LINKOPTION=2;_CRT_SECURE_NO_WARNINGS;HAVE_CONFIG_H;ID3_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile>$(IntDir)framework.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)platform.pch</PrecompiledHeaderOutputFile>
       <AdditionalOptions>/Zc:twoPhase- /bigobj </AdditionalOptions>
       <ExceptionHandling>Async</ExceptionHandling>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
@@ -779,8 +779,8 @@
       <CompileAsWinRT>false</CompileAsWinRT>
       <CompileAsManaged>false</CompileAsManaged>
       <PreprocessorDefinitions>_UWP;WIN32;ID3LIB_LINKOPTION=2;_CRT_SECURE_NO_WARNINGS;HAVE_CONFIG_H;ID3_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile>$(IntDir)framework.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)platform.pch</PrecompiledHeaderOutputFile>
       <AdditionalOptions>/Zc:twoPhase- /bigobj </AdditionalOptions>
       <ExceptionHandling>Async</ExceptionHandling>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
@@ -808,8 +808,8 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <CompileAsWinRT>false</CompileAsWinRT>
       <PreprocessorDefinitions>_UWP;WIN32;ID3LIB_LINKOPTION=2;_CRT_SECURE_NO_WARNINGS;HAVE_CONFIG_H;ID3_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile>$(IntDir)framework.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)platform.pch</PrecompiledHeaderOutputFile>
       <AdditionalOptions>/Zc:twoPhase- /bigobj </AdditionalOptions>
       <ExceptionHandling>Async</ExceptionHandling>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
@@ -835,8 +835,8 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <CompileAsWinRT>false</CompileAsWinRT>
       <PreprocessorDefinitions>_UWP;WIN32;ID3LIB_LINKOPTION=2;_CRT_SECURE_NO_WARNINGS;HAVE_CONFIG_H;ID3_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile>$(IntDir)framework.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)platform.pch</PrecompiledHeaderOutputFile>
       <AdditionalOptions>/Zc:twoPhase- /bigobj </AdditionalOptions>
       <ExceptionHandling>Async</ExceptionHandling>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>

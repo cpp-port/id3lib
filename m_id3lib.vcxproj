@@ -137,7 +137,7 @@
       <ImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)../../time/library/x86/$(Configuration)/$(TargetName).lib</ImportLibrary>
     </Link>
     <ClCompile>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile>platform.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(IntDir)pch.pch</PrecompiledHeaderOutputFile>
       <AdditionalIncludeDirectories>$(__sensitive)/sensitive/include;$(SolutionDir)../../../source/include;$(SolutionDir)../../../source/app/_include;$(SolutionDir)../../../source/port/include;$(SolutionDir)../../../source/port;.;$(SolutionDir)../../../;$(SolutionDir)../../../source;$(SolutionDir)../../../source/app;$(SolutionDir)../../../source;$(SolutionDir)../../../source/app;$(__operating_system)third-universal_windows/thirdparty;$(SolutionDir)../../../;$(ProjectDir)../..;$(ProjectDir)../../;$(ProjectDir)../;$(ProjectDir);include;include/id3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">_CRT_SECURE_NO_WARNINGS;HAVE_CONFIG_H;ID3_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
