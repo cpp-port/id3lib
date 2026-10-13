@@ -78,7 +78,7 @@
 #  else
 #    if (ID3LIB_LINKOPTION == LINKOPTION_CREATE_DYNAMIC)
        //used for creating a dynamic dll
-#      define ID3_C_EXPORT extern _declspec(dllexport)
+#      define ID3_C_EXPORT extern __declspec(dllexport)
 #      define ID3_CPP_EXPORT __declspec(dllexport)
 #      define CCONV __stdcall // Added for VB & Delphi Compatibility - By FrogPrince Advised By Lothar
 #    endif
@@ -90,7 +90,7 @@
 #    endif
 #    if (ID3LIB_LINKOPTION == LINKOPTION_USE_DYNAMIC)
        //used for those that do not link static and are using the dynamic dll by including a id3lib header
-#      define ID3_C_EXPORT extern _declspec(dllimport)
+#      define ID3_C_EXPORT extern __declspec(dllimport)
 #      define ID3_CPP_EXPORT __declspec(dllimport) //functions like these shouldn't be used by vb and delphi,
 #      define CCONV __stdcall // Added for VB & Delphi Compatibility - By FrogPrince Advised By Lothar
 #    endif
