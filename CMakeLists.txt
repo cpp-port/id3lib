@@ -79,6 +79,18 @@ set_target_properties(${PROJECT_NAME} PROPERTIES LINKER_LANGUAGE CXX)
 target_compile_definitions(${PROJECT_NAME} PRIVATE HAVE_CONFIG_H)
 target_compile_definitions(static_${PROJECT_NAME} PRIVATE HAVE_CONFIG_H)
 
+if(__REACTOS__)
+    # The in-tree zlib keeps zconf.h in its build directory. Both headers
+    # are needed by id3lib's compressed-tag reader and writer.
+    get_target_property(id3lib_zlib_source zlib SOURCE_DIR)
+    get_target_property(id3lib_zlib_binary zlib BINARY_DIR)
+    foreach(id3lib_target IN ITEMS ${PROJECT_NAME} static_${PROJECT_NAME})
+        target_include_directories(${id3lib_target} BEFORE PRIVATE
+            "${id3lib_zlib_binary}" "${id3lib_zlib_source}/include")
+        target_link_libraries(${id3lib_target} PRIVATE zlib)
+    endforeach()
+endif()
+
 
 if(${WIN32})
 
